@@ -9,6 +9,10 @@ pod 'MJRefresh'
 pod 'FMDB'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
+pod 'YYKit'
+pod 'pop', '~> 1.0'
+pod 'IQKeyboardManager'
+pod 'LKDBHelper'
 
 end
 

@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LGRootViewController.h"
+#import "LGMainViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+//@property (nonatomic, strong) LGRootViewController *rootTabBarViewController;
+@property (nonatomic, strong) LGMainViewController *rootTabBarViewController;
 
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LGMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.rootTabBarViewController = [[LGRootViewController alloc] init];
+    self.rootTabBarViewController = [[LGMainViewController alloc] init];
+//    self.rootTabBarViewController.defaultSelectedIndex = 0;
+//    self.rootTabBarViewController.selectedIndex = 0;
+    self.window.rootViewController = self.rootTabBarViewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
