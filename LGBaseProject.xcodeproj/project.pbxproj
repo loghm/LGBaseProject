@@ -59,6 +59,7 @@
 		E26437BD1FF61B0700964AA4 /* FMStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437BC1FF61B0700964AA4 /* FMStringUtil.m */; };
 		E26437C01FF6252F00964AA4 /* FMBasicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437BE1FF6252E00964AA4 /* FMBasicButton.m */; };
 		E26437C31FF6286700964AA4 /* LGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437C21FF6286700964AA4 /* LGRootViewController.m */; };
+		E28BA2452058CEBE00DB4A5E /* UIButton+CustomImageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */; };
 		E2C29C9C1FFF115D00B32096 /* LGBaseUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29C9B1FFF115D00B32096 /* LGBaseUIService.m */; };
 		E2C29CA21FFF13A600B32096 /* FMAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CA01FFF13A600B32096 /* FMAreaModel.m */; };
 		E2C29CA31FFF13A600B32096 /* FMBaseRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CA11FFF13A600B32096 /* FMBaseRouterModel.m */; };
@@ -240,6 +241,8 @@
 		E26437BF1FF6252F00964AA4 /* FMBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBasicButton.h; sourceTree = "<group>"; };
 		E26437C11FF6286700964AA4 /* LGRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRootViewController.h; sourceTree = "<group>"; };
 		E26437C21FF6286700964AA4 /* LGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRootViewController.m; sourceTree = "<group>"; };
+		E28BA2432058CEBE00DB4A5E /* UIButton+CustomImageLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomImageLayout.h"; sourceTree = "<group>"; };
+		E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomImageLayout.m"; sourceTree = "<group>"; };
 		E2C29C9A1FFF115D00B32096 /* LGBaseUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseUIService.h; sourceTree = "<group>"; };
 		E2C29C9B1FFF115D00B32096 /* LGBaseUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseUIService.m; sourceTree = "<group>"; };
 		E2C29C9E1FFF13A600B32096 /* FMAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAreaModel.h; sourceTree = "<group>"; };
@@ -1033,6 +1036,8 @@
 				E2DCE7861FF4D2750077EA55 /* UIButton+EnlargeEdge.m */,
 				E254FF792008B930000B2181 /* UIButton+Badge.h */,
 				E254FF7A2008B930000B2181 /* UIButton+Badge.m */,
+				E28BA2432058CEBE00DB4A5E /* UIButton+CustomImageLayout.h */,
+				E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1400,6 +1405,7 @@
 				E2EC53711FF24199000C4ECB /* FMNotificationName.m in Sources */,
 				E22C35432001EE0E007A3C89 /* FMPageControl.m in Sources */,
 				E22C35282000D7C1007A3C89 /* SandboxFile.m in Sources */,
+				E28BA2452058CEBE00DB4A5E /* UIButton+CustomImageLayout.m in Sources */,
 				E22C352E2001E869007A3C89 /* HyLoginButton.m in Sources */,
 				E2C29CD31FFF19E500B32096 /* FMRApplication.m in Sources */,
 				E22C35152000D1A7007A3C89 /* NSString+FMRMBString.m in Sources */,
