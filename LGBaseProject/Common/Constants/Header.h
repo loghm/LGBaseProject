@@ -19,7 +19,7 @@
 
 /** 工具类*/
 #import "FMToolsFunction.h"
-
+#import "HelpManager.h"
 
 /** 常量值*/
 #import "FMEnum.h"

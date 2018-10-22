@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20D3DA3217DAB8D0019FE28 /* FileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3D9F217DAB8D0019FE28 /* FileUploader.m */; };
+		E20D3DA4217DAB8D0019FE28 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3DA0217DAB8D0019FE28 /* NetworkManager.m */; };
+		E20D3DA5217DAB8D0019FE28 /* DownLoadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3DA1217DAB8D0019FE28 /* DownLoadFileManager.m */; };
 		E225AFBF1FE268A800A2F83E /* LGBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E225AFBE1FE268A800A2F83E /* LGBaseManager.m */; };
 		E225AFC61FE26D7600A2F83E /* LGNetWorkAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E225AFC51FE26D7600A2F83E /* LGNetWorkAction.m */; };
 		E225AFCE1FE28A1200A2F83E /* NSDictionary+DeleteNull.m in Sources */ = {isa = PBXBuildFile; fileRef = E225AFCD1FE28A1200A2F83E /* NSDictionary+DeleteNull.m */; };
@@ -43,6 +46,7 @@
 		E22C35772002066D007A3C89 /* LGPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C35762002066D007A3C89 /* LGPersonalViewController.m */; };
 		E22C357D2002068B007A3C89 /* LGBorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C357C2002068B007A3C89 /* LGBorrowViewController.m */; };
 		E22C3584200303C7007A3C89 /* LGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C3583200303C7007A3C89 /* LGTabBar.m */; };
+		E23499F6213CDCAF001D8729 /* UIButton+EventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */; };
 		E23883181FE0FB6400895CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23883171FE0FB6400895CA0 /* AppDelegate.m */; };
 		E238831E1FE0FB6400895CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E238831C1FE0FB6400895CA0 /* Main.storyboard */; };
 		E23883201FE0FB6400895CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E238831F1FE0FB6400895CA0 /* Assets.xcassets */; };
@@ -53,6 +57,7 @@
 		E254FF752008A2B5000B2181 /* FMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF742008A2B5000B2181 /* FMBaseViewController.m */; };
 		E254FF782008A316000B2181 /* FMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF762008A316000B2181 /* FMNavigationViewController.m */; };
 		E254FF7B2008B930000B2181 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF7A2008B930000B2181 /* UIButton+Badge.m */; };
+		E2629AAB217D7B3A0062F26F /* LGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2629AAA217D7B3A0062F26F /* LGColor.m */; };
 		E26437B21FF5F37300964AA4 /* FMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437B01FF5F37300964AA4 /* FMCaptionView.m */; };
 		E26437B61FF5F3C000964AA4 /* FMEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437B51FF5F3C000964AA4 /* FMEmptyView.m */; };
 		E26437BA1FF61AD400964AA4 /* FMViewConstructUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437B81FF61AD400964AA4 /* FMViewConstructUtil.m */; };
@@ -61,7 +66,6 @@
 		E26437C31FF6286700964AA4 /* LGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26437C21FF6286700964AA4 /* LGRootViewController.m */; };
 		E28BA2452058CEBE00DB4A5E /* UIButton+CustomImageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */; };
 		E2C29C9C1FFF115D00B32096 /* LGBaseUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29C9B1FFF115D00B32096 /* LGBaseUIService.m */; };
-		E2C29CA21FFF13A600B32096 /* FMAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CA01FFF13A600B32096 /* FMAreaModel.m */; };
 		E2C29CA31FFF13A600B32096 /* FMBaseRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CA11FFF13A600B32096 /* FMBaseRouterModel.m */; };
 		E2C29CC81FFF19E500B32096 /* FMRouterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CAA1FFF19E400B32096 /* FMRouterHelper.m */; };
 		E2C29CC91FFF19E500B32096 /* NSData+FMRouterTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CAC1FFF19E400B32096 /* NSData+FMRouterTrans.m */; };
@@ -77,7 +81,6 @@
 		E2C29CD31FFF19E500B32096 /* FMRApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CC61FFF19E400B32096 /* FMRApplication.m */; };
 		E2C29CD41FFF19E500B32096 /* FMRouterMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CC71FFF19E400B32096 /* FMRouterMapManager.m */; };
 		E2C29CDB1FFF1B2F00B32096 /* FMGlobalConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CD51FFF1B2E00B32096 /* FMGlobalConfigModel.m */; };
-		E2C29CDC1FFF1B2F00B32096 /* FMAreaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CD61FFF1B2E00B32096 /* FMAreaManager.m */; };
 		E2C29CDD1FFF1B2F00B32096 /* FMGlobalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CD81FFF1B2F00B32096 /* FMGlobalManager.m */; };
 		E2C29CE51FFF1C0500B32096 /* NSObject+FM_Subscript.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */; };
 		E2C29CE61FFF1C0500B32096 /* NSNumber+FMRMBString.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE21FFF1C0500B32096 /* NSNumber+FMRMBString.m */; };
@@ -88,6 +91,20 @@
 		E2C29D051FFF274300B32096 /* FMUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D031FFF274300B32096 /* FMUserManager.m */; };
 		E2C29D081FFF278400B32096 /* FMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D071FFF278400B32096 /* FMUserModel.m */; };
 		E2C29D0C1FFF2A7C00B32096 /* UIViewController+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D0B1FFF2A7C00B32096 /* UIViewController+FMPublic.m */; };
+		E2D1FB6620F8B35900E41696 /* CommonPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5420F8B35800E41696 /* CommonPicker.m */; };
+		E2D1FB6720F8B35900E41696 /* CommonPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB5520F8B35800E41696 /* CommonPicker.xib */; };
+		E2D1FB6820F8B35900E41696 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5720F8B35800E41696 /* DatePicker.m */; };
+		E2D1FB6920F8B35900E41696 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB5820F8B35800E41696 /* DatePicker.xib */; };
+		E2D1FB6A20F8B35900E41696 /* region_data.json in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB5B20F8B35800E41696 /* region_data.json */; };
+		E2D1FB6B20F8B35900E41696 /* AddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5D20F8B35800E41696 /* AddressPicker.m */; };
+		E2D1FB6C20F8B35900E41696 /* LinkagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5F20F8B35800E41696 /* LinkagePicker.m */; };
+		E2D1FB6D20F8B35900E41696 /* LinkagePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB6120F8B35800E41696 /* LinkagePicker.xib */; };
+		E2D1FB6E20F8B35900E41696 /* DatetimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB6320F8B35800E41696 /* DatetimePicker.m */; };
+		E2D1FB6F20F8B35900E41696 /* DatetimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB6420F8B35800E41696 /* DatetimePicker.xib */; };
+		E2D1FB7420F8B41C00E41696 /* HelpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB7320F8B41C00E41696 /* HelpManager.m */; };
+		E2D1FB7B20F8B4C400E41696 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB7620F8B4C400E41696 /* ShareView.m */; };
+		E2D1FB7C20F8B4C400E41696 /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB7720F8B4C400E41696 /* ActivityView.m */; };
+		E2D1FB7D20F8B4C400E41696 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB7A20F8B4C400E41696 /* ShareView.xib */; };
 		E2D7CD262004914D005CAD5B /* LGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D7CD252004914D005CAD5B /* LGBaseViewController.m */; };
 		E2D7CD452004D4B0005CAD5B /* LGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D7CD442004D4B0005CAD5B /* LGTabBarController.m */; };
 		E2D7CD482004FEC4005CAD5B /* LGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D7CD472004FEC3005CAD5B /* LGMainViewController.m */; };
@@ -108,6 +125,9 @@
 		E2EC53721FF24199000C4ECB /* FMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC536A1FF24198000C4ECB /* FMColor.m */; };
 		E2EC53731FF24199000C4ECB /* FMLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC536B1FF24199000C4ECB /* FMLayoutManager.m */; };
 		E2EC54911FF2668D000C4ECB /* FMRedPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC548F1FF2668D000C4ECB /* FMRedPointView.m */; };
+		E2EE7A8620E9F5CC006256BC /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE7A8420E9F5CB006256BC /* HealthKitManager.m */; };
+		E2EE7A8920E9F5D4006256BC /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EE7A8820E9F5D4006256BC /* HealthKit.framework */; };
+		E2EE7A8C20E9F713006256BC /* LGBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE7A8B20E9F713006256BC /* LGBaseModel.m */; };
 		FFD6F5DF42B591C86BB00185 /* Pods_LGBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6E0613C9CED2696B0BDD33 /* Pods_LGBaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +152,12 @@
 		2E08C8F7406568A153F95B4F /* Pods-LGBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		4534FB0EEDD86796BF4B0136 /* Pods-LGBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6E0613C9CED2696B0BDD33 /* Pods_LGBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D3D9D217DAB8D0019FE28 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		E20D3D9E217DAB8D0019FE28 /* DownLoadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadFileManager.h; sourceTree = "<group>"; };
+		E20D3D9F217DAB8D0019FE28 /* FileUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUploader.m; sourceTree = "<group>"; };
+		E20D3DA0217DAB8D0019FE28 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		E20D3DA1217DAB8D0019FE28 /* DownLoadFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadFileManager.m; sourceTree = "<group>"; };
+		E20D3DA2217DAB8D0019FE28 /* FileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
 		E225AFBD1FE268A800A2F83E /* LGBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseManager.h; sourceTree = "<group>"; };
 		E225AFBE1FE268A800A2F83E /* LGBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseManager.m; sourceTree = "<group>"; };
 		E225AFC41FE26D7600A2F83E /* LGNetWorkAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNetWorkAction.h; sourceTree = "<group>"; };
@@ -209,6 +235,8 @@
 		E22C357C2002068B007A3C89 /* LGBorrowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBorrowViewController.m; sourceTree = "<group>"; };
 		E22C3582200303C7007A3C89 /* LGTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBar.h; sourceTree = "<group>"; };
 		E22C3583200303C7007A3C89 /* LGTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabBar.m; sourceTree = "<group>"; };
+		E23499F4213CDCAF001D8729 /* UIButton+EventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EventInterval.h"; sourceTree = "<group>"; };
+		E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EventInterval.m"; sourceTree = "<group>"; };
 		E23883131FE0FB6400895CA0 /* LGBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23883161FE0FB6400895CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E23883171FE0FB6400895CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,6 +257,8 @@
 		E254FF772008A316000B2181 /* FMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNavigationViewController.h; sourceTree = "<group>"; };
 		E254FF792008B930000B2181 /* UIButton+Badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
 		E254FF7A2008B930000B2181 /* UIButton+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		E2629AA9217D7B3A0062F26F /* LGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGColor.h; sourceTree = "<group>"; };
+		E2629AAA217D7B3A0062F26F /* LGColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGColor.m; sourceTree = "<group>"; };
 		E26437B01FF5F37300964AA4 /* FMCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCaptionView.m; sourceTree = "<group>"; };
 		E26437B11FF5F37300964AA4 /* FMCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCaptionView.h; sourceTree = "<group>"; };
 		E26437B41FF5F3C000964AA4 /* FMEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEmptyView.h; sourceTree = "<group>"; };
@@ -245,9 +275,7 @@
 		E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomImageLayout.m"; sourceTree = "<group>"; };
 		E2C29C9A1FFF115D00B32096 /* LGBaseUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseUIService.h; sourceTree = "<group>"; };
 		E2C29C9B1FFF115D00B32096 /* LGBaseUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseUIService.m; sourceTree = "<group>"; };
-		E2C29C9E1FFF13A600B32096 /* FMAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAreaModel.h; sourceTree = "<group>"; };
 		E2C29C9F1FFF13A600B32096 /* FMBaseRouterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBaseRouterModel.h; sourceTree = "<group>"; };
-		E2C29CA01FFF13A600B32096 /* FMAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAreaModel.m; sourceTree = "<group>"; };
 		E2C29CA11FFF13A600B32096 /* FMBaseRouterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseRouterModel.m; sourceTree = "<group>"; };
 		E2C29CA61FFF19E400B32096 /* FMRApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRApplication.h; sourceTree = "<group>"; };
 		E2C29CA71FFF19E400B32096 /* FMRouterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRouterHelper.h; sourceTree = "<group>"; };
@@ -277,10 +305,8 @@
 		E2C29CC61FFF19E400B32096 /* FMRApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRApplication.m; sourceTree = "<group>"; };
 		E2C29CC71FFF19E400B32096 /* FMRouterMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRouterMapManager.m; sourceTree = "<group>"; };
 		E2C29CD51FFF1B2E00B32096 /* FMGlobalConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGlobalConfigModel.m; sourceTree = "<group>"; };
-		E2C29CD61FFF1B2E00B32096 /* FMAreaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAreaManager.m; sourceTree = "<group>"; };
 		E2C29CD71FFF1B2F00B32096 /* FMGlobalConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGlobalConfigModel.h; sourceTree = "<group>"; };
 		E2C29CD81FFF1B2F00B32096 /* FMGlobalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGlobalManager.m; sourceTree = "<group>"; };
-		E2C29CD91FFF1B2F00B32096 /* FMAreaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAreaManager.h; sourceTree = "<group>"; };
 		E2C29CDA1FFF1B2F00B32096 /* FMGlobalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGlobalManager.h; sourceTree = "<group>"; };
 		E2C29CDF1FFF1C0500B32096 /* NSNumber+FMRMBString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FMRMBString.h"; sourceTree = "<group>"; };
 		E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FM_Subscript.m"; sourceTree = "<group>"; };
@@ -301,6 +327,28 @@
 		E2C29D071FFF278400B32096 /* FMUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUserModel.m; sourceTree = "<group>"; };
 		E2C29D0A1FFF2A7C00B32096 /* UIViewController+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FMPublic.h"; sourceTree = "<group>"; };
 		E2C29D0B1FFF2A7C00B32096 /* UIViewController+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FMPublic.m"; sourceTree = "<group>"; };
+		E2D1FB5320F8B35800E41696 /* CommonPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPicker.h; sourceTree = "<group>"; };
+		E2D1FB5420F8B35800E41696 /* CommonPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPicker.m; sourceTree = "<group>"; };
+		E2D1FB5520F8B35800E41696 /* CommonPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonPicker.xib; sourceTree = "<group>"; };
+		E2D1FB5720F8B35800E41696 /* DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePicker.m; sourceTree = "<group>"; };
+		E2D1FB5820F8B35800E41696 /* DatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
+		E2D1FB5920F8B35800E41696 /* DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePicker.h; sourceTree = "<group>"; };
+		E2D1FB5B20F8B35800E41696 /* region_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = region_data.json; sourceTree = "<group>"; };
+		E2D1FB5C20F8B35800E41696 /* AddressPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPicker.h; sourceTree = "<group>"; };
+		E2D1FB5D20F8B35800E41696 /* AddressPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPicker.m; sourceTree = "<group>"; };
+		E2D1FB5F20F8B35800E41696 /* LinkagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkagePicker.m; sourceTree = "<group>"; };
+		E2D1FB6020F8B35800E41696 /* LinkagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkagePicker.h; sourceTree = "<group>"; };
+		E2D1FB6120F8B35800E41696 /* LinkagePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkagePicker.xib; sourceTree = "<group>"; };
+		E2D1FB6320F8B35800E41696 /* DatetimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatetimePicker.m; sourceTree = "<group>"; };
+		E2D1FB6420F8B35800E41696 /* DatetimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatetimePicker.xib; sourceTree = "<group>"; };
+		E2D1FB6520F8B35800E41696 /* DatetimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatetimePicker.h; sourceTree = "<group>"; };
+		E2D1FB7220F8B41C00E41696 /* HelpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpManager.h; sourceTree = "<group>"; };
+		E2D1FB7320F8B41C00E41696 /* HelpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpManager.m; sourceTree = "<group>"; };
+		E2D1FB7620F8B4C400E41696 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		E2D1FB7720F8B4C400E41696 /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityView.m; sourceTree = "<group>"; };
+		E2D1FB7820F8B4C400E41696 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		E2D1FB7920F8B4C400E41696 /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityView.h; sourceTree = "<group>"; };
+		E2D1FB7A20F8B4C400E41696 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
 		E2D7CD242004914D005CAD5B /* LGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseViewController.h; sourceTree = "<group>"; };
 		E2D7CD252004914D005CAD5B /* LGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseViewController.m; sourceTree = "<group>"; };
 		E2D7CD432004D4B0005CAD5B /* LGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBarController.h; sourceTree = "<group>"; };
@@ -345,6 +393,12 @@
 		E2EC53701FF24199000C4ECB /* FMNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNotificationName.h; sourceTree = "<group>"; };
 		E2EC548F1FF2668D000C4ECB /* FMRedPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRedPointView.m; sourceTree = "<group>"; };
 		E2EC54901FF2668D000C4ECB /* FMRedPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRedPointView.h; sourceTree = "<group>"; };
+		E2EE7A8420E9F5CB006256BC /* HealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		E2EE7A8520E9F5CB006256BC /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		E2EE7A8720E9F5D4006256BC /* LGBaseProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LGBaseProject.entitlements; sourceTree = "<group>"; };
+		E2EE7A8820E9F5D4006256BC /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E2EE7A8A20E9F713006256BC /* LGBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseModel.h; sourceTree = "<group>"; };
+		E2EE7A8B20E9F713006256BC /* LGBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD6F5DF42B591C86BB00185 /* Pods_LGBaseProject.framework in Frameworks */,
+				E2EE7A8920E9F5D4006256BC /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +440,7 @@
 		A6997AB6BCDACB1032760248 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2EE7A8820E9F5D4006256BC /* HealthKit.framework */,
 				CC6E0613C9CED2696B0BDD33 /* Pods_LGBaseProject.framework */,
 			);
 			name = Frameworks;
@@ -397,8 +453,6 @@
 				E22C35232000D76D007A3C89 /* FMDataBaseManager.m */,
 				E2C29CE91FFF1C7500B32096 /* FMBaseManager.h */,
 				E2C29CE81FFF1C7400B32096 /* FMBaseManager.m */,
-				E2C29CD91FFF1B2F00B32096 /* FMAreaManager.h */,
-				E2C29CD61FFF1B2E00B32096 /* FMAreaManager.m */,
 				E2C29CD71FFF1B2F00B32096 /* FMGlobalConfigModel.h */,
 				E2C29CD51FFF1B2E00B32096 /* FMGlobalConfigModel.m */,
 				E2C29CDA1FFF1B2F00B32096 /* FMGlobalManager.h */,
@@ -447,6 +501,8 @@
 			children = (
 				E2EC536D1FF24199000C4ECB /* FMColor.h */,
 				E2EC536A1FF24198000C4ECB /* FMColor.m */,
+				E2629AA9217D7B3A0062F26F /* LGColor.h */,
+				E2629AAA217D7B3A0062F26F /* LGColor.m */,
 				E2EC536E1FF24199000C4ECB /* FMConstants.h */,
 				E2EC536F1FF24199000C4ECB /* FMEnum.h */,
 				E2EC536C1FF24199000C4ECB /* FMLayoutManager.h */,
@@ -462,6 +518,12 @@
 		E225AFC31FE26D1E00A2F83E /* NetWorkAction */ = {
 			isa = PBXGroup;
 			children = (
+				E20D3D9E217DAB8D0019FE28 /* DownLoadFileManager.h */,
+				E20D3DA1217DAB8D0019FE28 /* DownLoadFileManager.m */,
+				E20D3DA2217DAB8D0019FE28 /* FileUploader.h */,
+				E20D3D9F217DAB8D0019FE28 /* FileUploader.m */,
+				E20D3D9D217DAB8D0019FE28 /* NetworkManager.h */,
+				E20D3DA0217DAB8D0019FE28 /* NetworkManager.m */,
 				E225AFC41FE26D7600A2F83E /* LGNetWorkAction.h */,
 				E225AFC51FE26D7600A2F83E /* LGNetWorkAction.m */,
 			);
@@ -488,6 +550,8 @@
 		E22C35162000D346007A3C89 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E2D1FB7020F8B41C00E41696 /* FMReachability */,
+				E2D1FB7120F8B41C00E41696 /* HelpManager */,
 				E22C35172000D346007A3C89 /* ChineseToSpell */,
 			);
 			path = Helper;
@@ -619,6 +683,7 @@
 		E23883151FE0FB6400895CA0 /* LGBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				E2EE7A8720E9F5D4006256BC /* LGBaseProject.entitlements */,
 				E225AFC01FE26C7800A2F83E /* Common */,
 				E2DCE79E1FF4FC570077EA55 /* MainViewCode */,
 				E23883161FE0FB6400895CA0 /* AppDelegate.h */,
@@ -708,6 +773,7 @@
 		E26437B71FF61A9200964AA4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E2EE7A8320E9F5CB006256BC /* StepCountManager */,
 				E22C35042000D124007A3C89 /* FMToolsFunction.h */,
 				E22C35032000D123007A3C89 /* FMToolsFunction.m */,
 				E26437BB1FF61B0700964AA4 /* FMStringUtil.h */,
@@ -730,8 +796,8 @@
 		E2C29C9D1FFF13A600B32096 /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				E2C29C9E1FFF13A600B32096 /* FMAreaModel.h */,
-				E2C29CA01FFF13A600B32096 /* FMAreaModel.m */,
+				E2EE7A8A20E9F713006256BC /* LGBaseModel.h */,
+				E2EE7A8B20E9F713006256BC /* LGBaseModel.m */,
 				E2C29C9F1FFF13A600B32096 /* FMBaseRouterModel.h */,
 				E2C29CA11FFF13A600B32096 /* FMBaseRouterModel.m */,
 			);
@@ -1005,6 +1071,96 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		E2D1FB5120F8B35800E41696 /* LGPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB5220F8B35800E41696 /* CommonPicker */,
+				E2D1FB5620F8B35800E41696 /* DatePicker */,
+				E2D1FB5A20F8B35800E41696 /* AddressPicker */,
+				E2D1FB5E20F8B35800E41696 /* LinkagePicker */,
+				E2D1FB6220F8B35800E41696 /* DatetimePicker */,
+			);
+			path = LGPicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB5220F8B35800E41696 /* CommonPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB5320F8B35800E41696 /* CommonPicker.h */,
+				E2D1FB5420F8B35800E41696 /* CommonPicker.m */,
+				E2D1FB5520F8B35800E41696 /* CommonPicker.xib */,
+			);
+			path = CommonPicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB5620F8B35800E41696 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB5720F8B35800E41696 /* DatePicker.m */,
+				E2D1FB5820F8B35800E41696 /* DatePicker.xib */,
+				E2D1FB5920F8B35800E41696 /* DatePicker.h */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB5A20F8B35800E41696 /* AddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB5B20F8B35800E41696 /* region_data.json */,
+				E2D1FB5C20F8B35800E41696 /* AddressPicker.h */,
+				E2D1FB5D20F8B35800E41696 /* AddressPicker.m */,
+			);
+			path = AddressPicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB5E20F8B35800E41696 /* LinkagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB5F20F8B35800E41696 /* LinkagePicker.m */,
+				E2D1FB6020F8B35800E41696 /* LinkagePicker.h */,
+				E2D1FB6120F8B35800E41696 /* LinkagePicker.xib */,
+			);
+			path = LinkagePicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB6220F8B35800E41696 /* DatetimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB6320F8B35800E41696 /* DatetimePicker.m */,
+				E2D1FB6420F8B35800E41696 /* DatetimePicker.xib */,
+				E2D1FB6520F8B35800E41696 /* DatetimePicker.h */,
+			);
+			path = DatetimePicker;
+			sourceTree = "<group>";
+		};
+		E2D1FB7020F8B41C00E41696 /* FMReachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMReachability;
+			sourceTree = "<group>";
+		};
+		E2D1FB7120F8B41C00E41696 /* HelpManager */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB7220F8B41C00E41696 /* HelpManager.h */,
+				E2D1FB7320F8B41C00E41696 /* HelpManager.m */,
+			);
+			path = HelpManager;
+			sourceTree = "<group>";
+		};
+		E2D1FB7520F8B4C400E41696 /* ShareView */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1FB7620F8B4C400E41696 /* ShareView.m */,
+				E2D1FB7720F8B4C400E41696 /* ActivityView.m */,
+				E2D1FB7820F8B4C400E41696 /* ShareView.h */,
+				E2D1FB7920F8B4C400E41696 /* ActivityView.h */,
+				E2D1FB7A20F8B4C400E41696 /* ShareView.xib */,
+			);
+			path = ShareView;
+			sourceTree = "<group>";
+		};
 		E2DCE77C1FF4CF0B0077EA55 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1038,6 +1194,8 @@
 				E254FF7A2008B930000B2181 /* UIButton+Badge.m */,
 				E28BA2432058CEBE00DB4A5E /* UIButton+CustomImageLayout.h */,
 				E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */,
+				E23499F4213CDCAF001D8729 /* UIButton+EventInterval.h */,
+				E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1105,6 +1263,8 @@
 		E2EC53741FF24379000C4ECB /* ViewKit */ = {
 			isa = PBXGroup;
 			children = (
+				E2D1FB7520F8B4C400E41696 /* ShareView */,
+				E2D1FB5120F8B35800E41696 /* LGPicker */,
 				E22C35492001FC6F007A3C89 /* FMWebImage */,
 				E2C29CEC1FFF229E00B32096 /* UIAlertView */,
 				E26437B31FF5F3C000964AA4 /* FMEmptyView */,
@@ -1134,6 +1294,15 @@
 				E2EC548F1FF2668D000C4ECB /* FMRedPointView.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		E2EE7A8320E9F5CB006256BC /* StepCountManager */ = {
+			isa = PBXGroup;
+			children = (
+				E2EE7A8420E9F5CB006256BC /* HealthKitManager.m */,
+				E2EE7A8520E9F5CB006256BC /* HealthKitManager.h */,
+			);
+			path = StepCountManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1208,6 +1377,11 @@
 					E23883121FE0FB6400895CA0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					E238832A1FE0FB6500895CA0 = {
 						CreatedOnToolsVersion = 9.2;
@@ -1247,9 +1421,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23883231FE0FB6400895CA0 /* LaunchScreen.storyboard in Resources */,
+				E2D1FB6920F8B35900E41696 /* DatePicker.xib in Resources */,
+				E2D1FB6720F8B35900E41696 /* CommonPicker.xib in Resources */,
+				E2D1FB6D20F8B35900E41696 /* LinkagePicker.xib in Resources */,
 				E2DCE79A1FF4ECD50077EA55 /* Localizable.strings in Resources */,
 				E23883201FE0FB6400895CA0 /* Assets.xcassets in Resources */,
+				E2D1FB6F20F8B35900E41696 /* DatetimePicker.xib in Resources */,
 				E238831E1FE0FB6400895CA0 /* Main.storyboard in Resources */,
+				E2D1FB7D20F8B4C400E41696 /* ShareView.xib in Resources */,
+				E2D1FB6A20F8B35900E41696 /* region_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1355,34 +1535,43 @@
 				E2DCE78B1FF4DF5E0077EA55 /* UIImage+MMBlur.m in Sources */,
 				E2C29CCF1FFF19E500B32096 /* FMRConfigurationManager.m in Sources */,
 				E2D7CD5D2005F7ED005CAD5B /* UIImage+Color.m in Sources */,
+				E2629AAB217D7B3A0062F26F /* LGColor.m in Sources */,
 				E26437B61FF5F3C000964AA4 /* FMEmptyView.m in Sources */,
 				E22C35122000D1A7007A3C89 /* NSString+FMPublic.m in Sources */,
 				E2D7CD482004FEC4005CAD5B /* LGMainViewController.m in Sources */,
+				E2D1FB7B20F8B4C400E41696 /* ShareView.m in Sources */,
+				E2D1FB7C20F8B4C400E41696 /* ActivityView.m in Sources */,
 				E2DCE7951FF4E4F40077EA55 /* UIView+Extension.m in Sources */,
 				E2C29CCD1FFF19E500B32096 /* FMRConfiguration.m in Sources */,
 				E22C35112000D1A7007A3C89 /* NSString+FM_URL.m in Sources */,
 				E2C29CD01FFF19E500B32096 /* FMRURLProtocol.m in Sources */,
 				E22C35422001EE0E007A3C89 /* FMBadgeButton.m in Sources */,
-				E2C29CA21FFF13A600B32096 /* FMAreaModel.m in Sources */,
 				E22C35242000D76D007A3C89 /* FMDataBaseManager.m in Sources */,
+				E2D1FB6C20F8B35900E41696 /* LinkagePicker.m in Sources */,
+				E2D1FB6820F8B35900E41696 /* DatePicker.m in Sources */,
+				E2D1FB6620F8B35900E41696 /* CommonPicker.m in Sources */,
 				E2C29CEA1FFF1C7500B32096 /* FMBaseManager.m in Sources */,
 				E22C35142000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.m in Sources */,
 				E22C357420020024007A3C89 /* UIWindow+FMPublic.m in Sources */,
 				E2C29CCE1FFF19E500B32096 /* FMRNodeManager.m in Sources */,
+				E2EE7A8C20E9F713006256BC /* LGBaseModel.m in Sources */,
 				E2EC53731FF24199000C4ECB /* FMLayoutManager.m in Sources */,
 				E26437C31FF6286700964AA4 /* LGRootViewController.m in Sources */,
 				E2EC53721FF24199000C4ECB /* FMColor.m in Sources */,
 				E2C29C9C1FFF115D00B32096 /* LGBaseUIService.m in Sources */,
 				E2DCE7831FF4CFF30077EA55 /* FMTextField.m in Sources */,
 				E26437BD1FF61B0700964AA4 /* FMStringUtil.m in Sources */,
-				E2C29CDC1FFF1B2F00B32096 /* FMAreaManager.m in Sources */,
 				E22C3584200303C7007A3C89 /* LGTabBar.m in Sources */,
 				E2C29CC81FFF19E500B32096 /* FMRouterHelper.m in Sources */,
+				E20D3DA5217DAB8D0019FE28 /* DownLoadFileManager.m in Sources */,
 				E2DCE7871FF4D2750077EA55 /* UIButton+EnlargeEdge.m in Sources */,
 				E2C29CEF1FFF229F00B32096 /* UIAlertView+FMPublic.m in Sources */,
 				E2C29CD21FFF19E500B32096 /* FMRCore+FMRPrivate.m in Sources */,
 				E22C35462001EE0E007A3C89 /* FMCountdownView.m in Sources */,
+				E2D1FB7420F8B41C00E41696 /* HelpManager.m in Sources */,
+				E23499F6213CDCAF001D8729 /* UIButton+EventInterval.m in Sources */,
 				E22C35132000D1A7007A3C89 /* NSString+FMSpliceURL.m in Sources */,
+				E20D3DA4217DAB8D0019FE28 /* NetworkManager.m in Sources */,
 				E22C35482001EE0E007A3C89 /* FMBadgeButton+ImageView.m in Sources */,
 				E22C35682001FC70007A3C89 /* UIButton+FMWebImage.m in Sources */,
 				E2C29CA31FFF13A600B32096 /* FMBaseRouterModel.m in Sources */,
@@ -1404,6 +1593,7 @@
 				E2C29CCA1FFF19E500B32096 /* UIApplication+FMRSwizzle.m in Sources */,
 				E2EC53711FF24199000C4ECB /* FMNotificationName.m in Sources */,
 				E22C35432001EE0E007A3C89 /* FMPageControl.m in Sources */,
+				E2D1FB6E20F8B35900E41696 /* DatetimePicker.m in Sources */,
 				E22C35282000D7C1007A3C89 /* SandboxFile.m in Sources */,
 				E28BA2452058CEBE00DB4A5E /* UIButton+CustomImageLayout.m in Sources */,
 				E22C352E2001E869007A3C89 /* HyLoginButton.m in Sources */,
@@ -1413,11 +1603,14 @@
 				E22C356B2001FC70007A3C89 /* FMWebImageManager+BLL.m in Sources */,
 				E22C357D2002068B007A3C89 /* LGBorrowViewController.m in Sources */,
 				E2DCE78E1FF4E2190077EA55 /* UIImage+Sub.m in Sources */,
+				E20D3DA3217DAB8D0019FE28 /* FileUploader.m in Sources */,
 				E22C35692001FC70007A3C89 /* UIView+FMWebImagePrivate.m in Sources */,
 				E2C29CC91FFF19E500B32096 /* NSData+FMRouterTrans.m in Sources */,
 				E254FF752008A2B5000B2181 /* FMBaseViewController.m in Sources */,
 				E22C35642001FC70007A3C89 /* FMWebProgressLayer.m in Sources */,
+				E2D1FB6B20F8B35900E41696 /* AddressPicker.m in Sources */,
 				E22C35472001EE0E007A3C89 /* UIView+FMToast.m in Sources */,
+				E2EE7A8620E9F5CC006256BC /* HealthKitManager.m in Sources */,
 				E22C351D2000D346007A3C89 /* pinyin.c in Sources */,
 				E2D7CD4E20050D64005CAD5B /* LGRangerReadingViewController.m in Sources */,
 				E254FF782008A316000B2181 /* FMNavigationViewController.m in Sources */,
@@ -1619,6 +1812,7 @@
 			baseConfigurationReference = 4534FB0EEDD86796BF4B0136 /* Pods-LGBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LGBaseProject/LGBaseProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63SLRT7K3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LGBaseProject/PrefixHeader.pch";
@@ -1636,6 +1830,7 @@
 			baseConfigurationReference = 2E08C8F7406568A153F95B4F /* Pods-LGBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LGBaseProject/LGBaseProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L63SLRT7K3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LGBaseProject/PrefixHeader.pch";

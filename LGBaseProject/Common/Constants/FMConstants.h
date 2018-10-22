@@ -13,10 +13,19 @@
 #define NSLog(...) NSLog(@"%@", [NSString stringWithFormat:__VA_ARGS__])
 #define DMLog(...) NSLog(@"%s line:%d :%@", __PRETTY_FUNCTION__, __LINE__,[NSString stringWithFormat:__VA_ARGS__])
 #define DDLogError(...) NSLog(@"%s line:%d :%@", __PRETTY_FUNCTION__, __LINE__,[NSString stringWithFormat:__VA_ARGS__])
+//A Better from OneV's Den Blog:https://onevcat.com/2014/01/black-magic-in-macro/
+#define DLog(format, ...) do {                                                          \
+            fprintf(stderr, "<%s : %d> %s\n",                                           \
+            [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],  \
+            __LINE__, __func__);                                                        \
+            (NSLog)((format), ##__VA_ARGS__);                                           \
+            fprintf(stderr, "-------\n");                                               \
+        } while (0)
 #else
 #define NSLog(...)
 #define DMLog(...)
 #define DDLogError(...)
+#define DLog(...)
 #endif
 
 
@@ -71,6 +80,8 @@ typedef void (^FMBooleanValueBlock)(BOOL boolean, id value);
 #define NAVIGATION_HEIGHT (CGRectGetHeight([[UIApplication sharedApplication] statusBarFrame]) + CGRectGetHeight(self.navigationController.navigationBar.frame))
 //适配iOS 11 tabBar高度
 #define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+//适配iOS 11状态栏高度
+#define STATUS_HEIGHT (CGRectGetHeight([[UIApplication sharedApplication] statusBarFrame]))
 
 //判断系统版本
 #define IOS5 ([UIDevice currentDevice].systemVersion.floatValue >= 5)

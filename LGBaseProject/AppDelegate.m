@@ -20,15 +20,50 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.rootTabBarViewController = [[LGRootViewController alloc] init];
+
     self.rootTabBarViewController = [[LGMainViewController alloc] init];
-//    self.rootTabBarViewController.defaultSelectedIndex = 0;
-//    self.rootTabBarViewController.selectedIndex = 0;
+
+//设置一些在调试阶段不需要运行的框架，类似bugly
+#if !DEBUG
+    
+#else
+    
+#endif
+//    配置键盘
+    [self setKeyBoard];
+    //app 初始化
+    [self initailApp];
+    
     self.window.rootViewController = self.rootTabBarViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+#pragma mark - 配置键盘
+- (void)setKeyBoard{
+    //    //配置键盘
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    //    控制整个功能是否启用。
+    manager.enable = YES;
+    manager.overrideKeyboardAppearance = YES;
+    //控制点击背景是否收起键盘
+    manager.shouldResignOnTouchOutside = YES;
+    //控制是否显示键盘上的工具条。
+    manager.enableAutoToolbar = NO;
+    manager.keyboardDistanceFromTextField = 10.0f; // 输入框距离键盘的距离
+}
+
+#pragma mark 进入app的初始化
+- (void)initailApp {
+    //    获取系统设置
+    [[NetworkManager shareInstance] requestGetWithURL:ConfigURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        DTSystemConfigModel *model = [DTSystemConfigModel mj_objectWithKeyValues:responseObject];
+        [HelpManager setData:model forKey:AppInitialKey];
+    } failure:^(NSURLSessionDataTask *task, NSError *error, NSString *errMessage) {
+        DLog(@"缓存失败");
+    }];
 }
 
 

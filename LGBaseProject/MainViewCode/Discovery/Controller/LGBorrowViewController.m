@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view.
     NSLog(@"-------LGBorrowViewController");
     [self setUpNavi];
-    
+    [self testLuhnAlgorithm];
 }
 
 
@@ -57,6 +57,11 @@
     searchButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
 }
 
+- (void)testLuhnAlgorithm {
+    NSString *str = @"6236681930005220551";
+    BOOL isBankCardNum = [HelpManager isValidCardNumber:str];
+    DMLog(@"-----:%d", isBankCardNum);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

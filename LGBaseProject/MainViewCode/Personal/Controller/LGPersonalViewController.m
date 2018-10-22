@@ -18,7 +18,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"-------LGPersonalViewController");
+    
+    [self recordNote];
+    
+    
+}
 
+
+- (void)recordNote {
+    //直接调用方法的方式 performSelector、NSInvocation
+    //最多可以
+    //    [self performSelector:<#(SEL)#> withObject:<#(id)#> withObject:<#(id)#>]
 }
 
 - (void)didReceiveMemoryWarning {
