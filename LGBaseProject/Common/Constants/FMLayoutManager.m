@@ -59,8 +59,21 @@
     }
 }
 
+- (void)layout{
+    self.dtSafeMargin = kScreenWidthRatio * 24;
+    self.dtGrayRectangleHeight = kScreenHeightRatio * 12;
+    if (IS_iPhoneX) {
+        self.dtNavBarHeight = 88;
+        self.dtTabBarHeight = 83;
+    }else {
+        self.dtNavBarHeight = 64;
+        self.dtTabBarHeight = 49;
+    }
+}
+
 -(void)fmCurrentInit
 {
+    [self layout];
     [self fmDefault];
     
     //默认用4.7寸屏布局

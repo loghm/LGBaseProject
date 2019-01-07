@@ -17,7 +17,9 @@
 
 + (HelpManager *)shareFMDBHelper;
 
++(void)setData:(id)data forKey:(NSString *)key;
 
++(id)loadDataforKey:(NSString *)key;
 
 + (NSString *)md5HexDigest:(NSString *)url;
 

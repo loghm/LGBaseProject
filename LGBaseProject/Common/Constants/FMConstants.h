@@ -75,6 +75,11 @@ typedef void (^FMBooleanValueBlock)(BOOL boolean, id value);
 /// 系统 scale
 #define SCREEN_SCALE ([[UIScreen mainScreen] scale])
 
+#define kScreenWidthRatio  (SCREEN_WIDTH / 375.0f)
+#define kScreenHeightRatio (SCREEN_HEIGHT / 667.0f)
+
+#define CGFloatAutoFit(x) (SCREEN_HEIGHT < SCREEN_WIDTH ? SCREEN_HEIGHT : SCREEN_WIDTH)/375 * x
+
 
 //适配iOS 11 导航栏高度
 #define NAVIGATION_HEIGHT (CGRectGetHeight([[UIApplication sharedApplication] statusBarFrame]) + CGRectGetHeight(self.navigationController.navigationBar.frame))
@@ -97,8 +102,15 @@ typedef void (^FMBooleanValueBlock)(BOOL boolean, id value);
 #define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
 #define iPhone6 ([UIScreen mainScreen].bounds.size.width == 375)
 #define iPhone6p ([UIScreen mainScreen].bounds.size.width == 414)
-//适配iPhone X
+//iPhone X
 #define IS_iPhoneX ([UIScreen mainScreen].bounds.size.width == 375 && [UIScreen mainScreen].bounds.size.height == 812)
+//iPhoneXR
+#define iPhoneXR ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+//iPhoneXS_Max
+#define iPhoneXS_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//适配iPhone X以上机型
+#define IS_iPhoneXUper ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height == 896)
 
 /** 本地化字符串*/
 #define LGLocalString(x) NSLocalizedString(x, nil)
@@ -141,5 +153,11 @@ typedef void (^FMBooleanValueBlock)(BOOL boolean, id value);
 #define K_KEY_WEIBO             @"3934020870"
 #define K_SCRECT_WEIBO          @"f03bc8d991dbc1487a87e43e7af52065"
 #define K_REDIRECTURI_WEIBO     @"https://api.weibo.com/oauth2/default.html"
+
+
+#pragma mark app初始化
+#define AppInitialKey @"AppInitialData"
+
+
 
 #endif /* FMConstants_h */

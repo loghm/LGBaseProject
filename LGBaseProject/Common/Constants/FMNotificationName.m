@@ -10,6 +10,14 @@
 
 @implementation FMNotificationName
 
+
+NSString *const IsEnablePersonalCenterVCMainTableViewScroll =   @"IsEnablePersonalCenterVCMainTableViewScroll";
+
+NSString *const CurrentSelectedChildViewControllerIndex     =   @"CurrentSelectedChildViewControllerIndex";
+
+NSString *const PersonalCenterVCBackingStatus               =   @"PersonalCenterVCBackingStatus";
+
+
 //用户需要登录通知
 NSString *const FMUserNeedLoginNotification                 =   @"fm_user_need_login_notification";
 //登录通知

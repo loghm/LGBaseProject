@@ -9,11 +9,16 @@
 #ifndef LGServiceURL_h
 #define LGServiceURL_h
 
-#define BaseURL @"http://www.57xiawa.com"
+#define BASEURL @"http://www.57xiawa.com"
 
 #pragma mark - 模块1
 
-#define SMSURl [NSString stringWithFormat:@"%@captcha/",BaseURL]
+#define SMSURl [NSString stringWithFormat:@"%@captcha/",BASEURL]
+
+#pragma mark - 初始化配置
+/** 一些系统设置*/
+#define ConfigURL [NSString stringWithFormat:@"%@/sys/config",BASEURL]
+
 
 #pragma mark - 模块1
 

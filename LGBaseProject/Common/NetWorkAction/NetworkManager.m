@@ -65,10 +65,7 @@
     
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/css",@"text/plain", @"application/javascript",@"application/json", @"application/x-www-form-urlencoded", nil]];
     
-    //加密
-    if ([userDef objectForKey:@"token"]) {
-        [manager.requestSerializer setValue:[[HelpManager shareFMDBHelper] getDataWithEvent:@"GET" WithUrl:url]forHTTPHeaderField:@"Authorization"];
-    }
+    
     
     
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -149,11 +146,7 @@
     
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/css",@"text/plain", @"application/javascript",@"application/json", @"application/x-www-form-urlencoded", nil]];
     
-    //加密
-    if ([userDef objectForKey:@"token"]) {
-        [manager.requestSerializer setValue:[[HelpManager shareFMDBHelper] getDataWithEvent:@"POST" WithUrl:url]forHTTPHeaderField:@"Authorization"];
-    }
-  
+    
     
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
@@ -238,13 +231,9 @@
     
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     
-    //加密
-    if ([userDef objectForKey:@"token"]) {
-        [manager.requestSerializer setValue:[[HelpManager shareFMDBHelper] getDataWithEvent:@"PUT" WithUrl:url]forHTTPHeaderField:@"Authorization"];
-    }
+   
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    //加密
-    //[manager.requestSerializer setValue:[[HelpManager shareHelpManager ] getDataWithEvent:@"PUT" WithUrl:urlStr]forHTTPHeaderField:@"Authorization"];
+   
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/css",@"text/plain", @"application/javascript",@"application/json", @"application/x-www-form-urlencoded", nil]];
@@ -283,10 +272,7 @@
 ////        [kWindow.rootViewController presentViewController:nav animated:YES completion:nil];
 //        return;
 //    }
-    //加密
-    if ([userDef objectForKey:@"token"]) {
-        [manager.requestSerializer setValue:[[HelpManager shareFMDBHelper] getDataWithEvent:@"DELETE" WithUrl:url]forHTTPHeaderField:@"Authorization"];
-    }
+    
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];

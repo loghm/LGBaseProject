@@ -14,8 +14,6 @@
 
 - (void)setBadgeValue:(NSString *)badgeValue;
 
-
-
 @end
 
 @interface LGTabBarController : UITabBarController

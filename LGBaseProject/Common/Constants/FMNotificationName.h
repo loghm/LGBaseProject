@@ -12,6 +12,10 @@
 
 @interface FMNotificationName : NSObject
 
+extern NSString *const IsEnablePersonalCenterVCMainTableViewScroll;
+extern NSString *const CurrentSelectedChildViewControllerIndex;
+extern NSString *const PersonalCenterVCBackingStatus;
+
 ///用户需要登录通知
 extern NSString *const FMUserNeedLoginNotification;
 

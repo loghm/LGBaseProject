@@ -108,10 +108,7 @@
             break;
     }
     
-    //加密
-    if ([userDef objectForKey:@"token"]) {
-        [manager.requestSerializer setValue:[[HelpManager shareFMDBHelper] getDataWithEvent:@"POST" WithUrl:url]forHTTPHeaderField:@"Authorization"];
-    }
+    
     
     //3.设置相应数据支持的类型
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/css",@"text/plain", @"application/javascript",@"application/json", @"application/x-www-form-urlencoded", nil]];

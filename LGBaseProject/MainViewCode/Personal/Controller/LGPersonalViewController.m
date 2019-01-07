@@ -7,6 +7,7 @@
 //
 
 #import "LGPersonalViewController.h"
+#import "LGHomePageViewController.h"
 
 @interface LGPersonalViewController ()
 
@@ -18,17 +19,31 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"-------LGPersonalViewController");
-    
-    [self recordNote];
-    
-    
+    [self createUI];
 }
 
+- (void)createUI {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitle:@"点击跳转" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    btn.layer.masksToBounds = YES;
+    btn.layer.cornerRadius = 12;
+    btn.layer.borderColor = [UIColor blackColor].CGColor;
+    btn.layer.borderWidth = 1;
+    [self.view addSubview:btn];
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.mas_equalTo(self.view);
+        make.centerX.mas_equalTo(self.view);
+        make.centerY.mas_equalTo(self.view);
+        make.width.mas_equalTo(150);
+        make.height.mas_equalTo(btn.mas_width).multipliedBy(1.0);
+    }];
+}
 
-- (void)recordNote {
-    //直接调用方法的方式 performSelector、NSInvocation
-    //最多可以
-    //    [self performSelector:<#(SEL)#> withObject:<#(id)#> withObject:<#(id)#>]
+- (void)click:(UIButton *)btn {
+    LGHomePageViewController *homeP = [[LGHomePageViewController alloc] init];
+    [self.navigationController pushViewController:homeP animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

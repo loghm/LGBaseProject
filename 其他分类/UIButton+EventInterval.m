@@ -31,7 +31,7 @@ static char * const eventUnavailableKey = "eventUnavailableKey";
 #pragma mark - Action functions
 
 - (void)qi_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
-    
+    DLog(@"eventUnavailable:...%d", self.eventUnavailable);
     if (self.eventUnavailable == NO) {
         self.eventUnavailable = YES;
         [self qi_sendAction:action to:target forEvent:event];

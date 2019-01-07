@@ -46,7 +46,6 @@
 		E22C35772002066D007A3C89 /* LGPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C35762002066D007A3C89 /* LGPersonalViewController.m */; };
 		E22C357D2002068B007A3C89 /* LGBorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C357C2002068B007A3C89 /* LGBorrowViewController.m */; };
 		E22C3584200303C7007A3C89 /* LGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C3583200303C7007A3C89 /* LGTabBar.m */; };
-		E23499F6213CDCAF001D8729 /* UIButton+EventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */; };
 		E23883181FE0FB6400895CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23883171FE0FB6400895CA0 /* AppDelegate.m */; };
 		E238831E1FE0FB6400895CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E238831C1FE0FB6400895CA0 /* Main.storyboard */; };
 		E23883201FE0FB6400895CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E238831F1FE0FB6400895CA0 /* Assets.xcassets */; };
@@ -54,6 +53,16 @@
 		E23883261FE0FB6500895CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E23883251FE0FB6500895CA0 /* main.m */; };
 		E23883301FE0FB6500895CA0 /* LGBaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E238832F1FE0FB6500895CA0 /* LGBaseProjectTests.m */; };
 		E238833B1FE0FB6500895CA0 /* LGBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E238833A1FE0FB6500895CA0 /* LGBaseProjectUITests.m */; };
+		E240C569218023B800A76B16 /* LGMainTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C568218023B800A76B16 /* LGMainTouchTableView.m */; };
+		E240C56C218025FA00A76B16 /* LGSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C56B218025FA00A76B16 /* LGSegmentView.m */; };
+		E240C56F2180359F00A76B16 /* LGSegmentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C56E2180359F00A76B16 /* LGSegmentHeaderView.m */; };
+		E240C57D2180428D00A76B16 /* CenterTestCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C5772180428C00A76B16 /* CenterTestCollectionView.m */; };
+		E240C57E2180428D00A76B16 /* CenterTestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E240C5782180428C00A76B16 /* CenterTestCollectionViewCell.xib */; };
+		E240C57F2180428D00A76B16 /* CenterTestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C5792180428C00A76B16 /* CenterTestCollectionViewCell.m */; };
+		E240C5802180428D00A76B16 /* CenterTestCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E240C57C2180428D00A76B16 /* CenterTestCollectionView.xib */; };
+		E240C5832180447100A76B16 /* LGSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C5822180447100A76B16 /* LGSegmentViewController.m */; };
+		E240C5862180454B00A76B16 /* LGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C5852180454B00A76B16 /* LGFirstViewController.m */; };
+		E240C5892180455700A76B16 /* LGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240C5882180455700A76B16 /* LGSecondViewController.m */; };
 		E254FF752008A2B5000B2181 /* FMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF742008A2B5000B2181 /* FMBaseViewController.m */; };
 		E254FF782008A316000B2181 /* FMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF762008A316000B2181 /* FMNavigationViewController.m */; };
 		E254FF7B2008B930000B2181 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = E254FF7A2008B930000B2181 /* UIButton+Badge.m */; };
@@ -91,6 +100,8 @@
 		E2C29D051FFF274300B32096 /* FMUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D031FFF274300B32096 /* FMUserManager.m */; };
 		E2C29D081FFF278400B32096 /* FMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D071FFF278400B32096 /* FMUserModel.m */; };
 		E2C29D0C1FFF2A7C00B32096 /* UIViewController+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29D0B1FFF2A7C00B32096 /* UIViewController+FMPublic.m */; };
+		E2C3A801217EBE8700C05543 /* LGSystemConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3A800217EBE8700C05543 /* LGSystemConfigModel.m */; };
+		E2C3A805217EF21B00C05543 /* LGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3A804217EF21B00C05543 /* LGHomePageViewController.m */; };
 		E2D1FB6620F8B35900E41696 /* CommonPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5420F8B35800E41696 /* CommonPicker.m */; };
 		E2D1FB6720F8B35900E41696 /* CommonPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D1FB5520F8B35800E41696 /* CommonPicker.xib */; };
 		E2D1FB6820F8B35900E41696 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D1FB5720F8B35800E41696 /* DatePicker.m */; };
@@ -235,8 +246,6 @@
 		E22C357C2002068B007A3C89 /* LGBorrowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBorrowViewController.m; sourceTree = "<group>"; };
 		E22C3582200303C7007A3C89 /* LGTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBar.h; sourceTree = "<group>"; };
 		E22C3583200303C7007A3C89 /* LGTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabBar.m; sourceTree = "<group>"; };
-		E23499F4213CDCAF001D8729 /* UIButton+EventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EventInterval.h"; sourceTree = "<group>"; };
-		E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EventInterval.m"; sourceTree = "<group>"; };
 		E23883131FE0FB6400895CA0 /* LGBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23883161FE0FB6400895CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E23883171FE0FB6400895CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -251,6 +260,24 @@
 		E23883361FE0FB6500895CA0 /* LGBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E238833A1FE0FB6500895CA0 /* LGBaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseProjectUITests.m; sourceTree = "<group>"; };
 		E238833C1FE0FB6500895CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E240C567218023B800A76B16 /* LGMainTouchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMainTouchTableView.h; sourceTree = "<group>"; };
+		E240C568218023B800A76B16 /* LGMainTouchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMainTouchTableView.m; sourceTree = "<group>"; };
+		E240C56A218025FA00A76B16 /* LGSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSegmentView.h; sourceTree = "<group>"; };
+		E240C56B218025FA00A76B16 /* LGSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSegmentView.m; sourceTree = "<group>"; };
+		E240C56D2180359F00A76B16 /* LGSegmentHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSegmentHeaderView.h; sourceTree = "<group>"; };
+		E240C56E2180359F00A76B16 /* LGSegmentHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSegmentHeaderView.m; sourceTree = "<group>"; };
+		E240C5772180428C00A76B16 /* CenterTestCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterTestCollectionView.m; sourceTree = "<group>"; };
+		E240C5782180428C00A76B16 /* CenterTestCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterTestCollectionViewCell.xib; sourceTree = "<group>"; };
+		E240C5792180428C00A76B16 /* CenterTestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterTestCollectionViewCell.m; sourceTree = "<group>"; };
+		E240C57A2180428C00A76B16 /* CenterTestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterTestCollectionViewCell.h; sourceTree = "<group>"; };
+		E240C57B2180428D00A76B16 /* CenterTestCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterTestCollectionView.h; sourceTree = "<group>"; };
+		E240C57C2180428D00A76B16 /* CenterTestCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterTestCollectionView.xib; sourceTree = "<group>"; };
+		E240C5812180447100A76B16 /* LGSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSegmentViewController.h; sourceTree = "<group>"; };
+		E240C5822180447100A76B16 /* LGSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSegmentViewController.m; sourceTree = "<group>"; };
+		E240C5842180454B00A76B16 /* LGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGFirstViewController.h; sourceTree = "<group>"; };
+		E240C5852180454B00A76B16 /* LGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGFirstViewController.m; sourceTree = "<group>"; };
+		E240C5872180455700A76B16 /* LGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSecondViewController.h; sourceTree = "<group>"; };
+		E240C5882180455700A76B16 /* LGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSecondViewController.m; sourceTree = "<group>"; };
 		E254FF732008A2B5000B2181 /* FMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBaseViewController.h; sourceTree = "<group>"; };
 		E254FF742008A2B5000B2181 /* FMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseViewController.m; sourceTree = "<group>"; };
 		E254FF762008A316000B2181 /* FMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMNavigationViewController.m; sourceTree = "<group>"; };
@@ -327,6 +354,10 @@
 		E2C29D071FFF278400B32096 /* FMUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUserModel.m; sourceTree = "<group>"; };
 		E2C29D0A1FFF2A7C00B32096 /* UIViewController+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FMPublic.h"; sourceTree = "<group>"; };
 		E2C29D0B1FFF2A7C00B32096 /* UIViewController+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FMPublic.m"; sourceTree = "<group>"; };
+		E2C3A7FF217EBE8700C05543 /* LGSystemConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSystemConfigModel.h; sourceTree = "<group>"; };
+		E2C3A800217EBE8700C05543 /* LGSystemConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSystemConfigModel.m; sourceTree = "<group>"; };
+		E2C3A803217EF21B00C05543 /* LGHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHomePageViewController.h; sourceTree = "<group>"; };
+		E2C3A804217EF21B00C05543 /* LGHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHomePageViewController.m; sourceTree = "<group>"; };
 		E2D1FB5320F8B35800E41696 /* CommonPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPicker.h; sourceTree = "<group>"; };
 		E2D1FB5420F8B35800E41696 /* CommonPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPicker.m; sourceTree = "<group>"; };
 		E2D1FB5520F8B35800E41696 /* CommonPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonPicker.xib; sourceTree = "<group>"; };
@@ -730,6 +761,38 @@
 			path = BaseFolder;
 			sourceTree = "<group>";
 		};
+		E240C5662180238100A76B16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E240C57B2180428D00A76B16 /* CenterTestCollectionView.h */,
+				E240C5772180428C00A76B16 /* CenterTestCollectionView.m */,
+				E240C57C2180428D00A76B16 /* CenterTestCollectionView.xib */,
+				E240C57A2180428C00A76B16 /* CenterTestCollectionViewCell.h */,
+				E240C5792180428C00A76B16 /* CenterTestCollectionViewCell.m */,
+				E240C5782180428C00A76B16 /* CenterTestCollectionViewCell.xib */,
+				E240C567218023B800A76B16 /* LGMainTouchTableView.h */,
+				E240C568218023B800A76B16 /* LGMainTouchTableView.m */,
+				E240C56A218025FA00A76B16 /* LGSegmentView.h */,
+				E240C56B218025FA00A76B16 /* LGSegmentView.m */,
+				E240C56D2180359F00A76B16 /* LGSegmentHeaderView.h */,
+				E240C56E2180359F00A76B16 /* LGSegmentHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E240C57021803DD100A76B16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E240C5812180447100A76B16 /* LGSegmentViewController.h */,
+				E240C5822180447100A76B16 /* LGSegmentViewController.m */,
+				E240C5842180454B00A76B16 /* LGFirstViewController.h */,
+				E240C5852180454B00A76B16 /* LGFirstViewController.m */,
+				E240C5872180455700A76B16 /* LGSecondViewController.h */,
+				E240C5882180455700A76B16 /* LGSecondViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		E26437A71FF5F1CE00964AA4 /* BaseNavigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -800,6 +863,8 @@
 				E2EE7A8B20E9F713006256BC /* LGBaseModel.m */,
 				E2C29C9F1FFF13A600B32096 /* FMBaseRouterModel.h */,
 				E2C29CA11FFF13A600B32096 /* FMBaseRouterModel.m */,
+				E2C3A7FF217EBE8700C05543 /* LGSystemConfigModel.h */,
+				E2C3A800217EBE8700C05543 /* LGSystemConfigModel.m */,
 			);
 			path = BaseModel;
 			sourceTree = "<group>";
@@ -978,6 +1043,7 @@
 		E2C29CF81FFF26E300B32096 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E2C3A802217EF1ED00C05543 /* HomePage */,
 				E22C352A2000DE91007A3C89 /* FMLoginViewController.h */,
 				E22C35292000DE91007A3C89 /* FMLoginViewController.m */,
 				E22C35752002066D007A3C89 /* LGPersonalViewController.h */,
@@ -1069,6 +1135,17 @@
 				E2C29D0B1FFF2A7C00B32096 /* UIViewController+FMPublic.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		E2C3A802217EF1ED00C05543 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E240C57021803DD100A76B16 /* Controllers */,
+				E240C5662180238100A76B16 /* View */,
+				E2C3A803217EF21B00C05543 /* LGHomePageViewController.h */,
+				E2C3A804217EF21B00C05543 /* LGHomePageViewController.m */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 		E2D1FB5120F8B35800E41696 /* LGPicker */ = {
@@ -1194,8 +1271,6 @@
 				E254FF7A2008B930000B2181 /* UIButton+Badge.m */,
 				E28BA2432058CEBE00DB4A5E /* UIButton+CustomImageLayout.h */,
 				E28BA2442058CEBE00DB4A5E /* UIButton+CustomImageLayout.m */,
-				E23499F4213CDCAF001D8729 /* UIButton+EventInterval.h */,
-				E23499F5213CDCAF001D8729 /* UIButton+EventInterval.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1421,8 +1496,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23883231FE0FB6400895CA0 /* LaunchScreen.storyboard in Resources */,
+				E240C5802180428D00A76B16 /* CenterTestCollectionView.xib in Resources */,
 				E2D1FB6920F8B35900E41696 /* DatePicker.xib in Resources */,
 				E2D1FB6720F8B35900E41696 /* CommonPicker.xib in Resources */,
+				E240C57E2180428D00A76B16 /* CenterTestCollectionViewCell.xib in Resources */,
 				E2D1FB6D20F8B35900E41696 /* LinkagePicker.xib in Resources */,
 				E2DCE79A1FF4ECD50077EA55 /* Localizable.strings in Resources */,
 				E23883201FE0FB6400895CA0 /* Assets.xcassets in Resources */,
@@ -1532,17 +1609,24 @@
 				E2C29CE51FFF1C0500B32096 /* NSObject+FM_Subscript.m in Sources */,
 				E26437BA1FF61AD400964AA4 /* FMViewConstructUtil.m in Sources */,
 				E225AFC61FE26D7600A2F83E /* LGNetWorkAction.m in Sources */,
+				E240C5862180454B00A76B16 /* LGFirstViewController.m in Sources */,
 				E2DCE78B1FF4DF5E0077EA55 /* UIImage+MMBlur.m in Sources */,
 				E2C29CCF1FFF19E500B32096 /* FMRConfigurationManager.m in Sources */,
 				E2D7CD5D2005F7ED005CAD5B /* UIImage+Color.m in Sources */,
+				E240C57D2180428D00A76B16 /* CenterTestCollectionView.m in Sources */,
 				E2629AAB217D7B3A0062F26F /* LGColor.m in Sources */,
+				E240C57F2180428D00A76B16 /* CenterTestCollectionViewCell.m in Sources */,
 				E26437B61FF5F3C000964AA4 /* FMEmptyView.m in Sources */,
 				E22C35122000D1A7007A3C89 /* NSString+FMPublic.m in Sources */,
+				E240C56F2180359F00A76B16 /* LGSegmentHeaderView.m in Sources */,
 				E2D7CD482004FEC4005CAD5B /* LGMainViewController.m in Sources */,
 				E2D1FB7B20F8B4C400E41696 /* ShareView.m in Sources */,
 				E2D1FB7C20F8B4C400E41696 /* ActivityView.m in Sources */,
 				E2DCE7951FF4E4F40077EA55 /* UIView+Extension.m in Sources */,
 				E2C29CCD1FFF19E500B32096 /* FMRConfiguration.m in Sources */,
+				E240C5832180447100A76B16 /* LGSegmentViewController.m in Sources */,
+				E240C56C218025FA00A76B16 /* LGSegmentView.m in Sources */,
+				E240C569218023B800A76B16 /* LGMainTouchTableView.m in Sources */,
 				E22C35112000D1A7007A3C89 /* NSString+FM_URL.m in Sources */,
 				E2C29CD01FFF19E500B32096 /* FMRURLProtocol.m in Sources */,
 				E22C35422001EE0E007A3C89 /* FMBadgeButton.m in Sources */,
@@ -1569,7 +1653,7 @@
 				E2C29CD21FFF19E500B32096 /* FMRCore+FMRPrivate.m in Sources */,
 				E22C35462001EE0E007A3C89 /* FMCountdownView.m in Sources */,
 				E2D1FB7420F8B41C00E41696 /* HelpManager.m in Sources */,
-				E23499F6213CDCAF001D8729 /* UIButton+EventInterval.m in Sources */,
+				E2C3A805217EF21B00C05543 /* LGHomePageViewController.m in Sources */,
 				E22C35132000D1A7007A3C89 /* NSString+FMSpliceURL.m in Sources */,
 				E20D3DA4217DAB8D0019FE28 /* NetworkManager.m in Sources */,
 				E22C35482001EE0E007A3C89 /* FMBadgeButton+ImageView.m in Sources */,
@@ -1592,6 +1676,7 @@
 				E2C29CD11FFF19E500B32096 /* FMRCore.m in Sources */,
 				E2C29CCA1FFF19E500B32096 /* UIApplication+FMRSwizzle.m in Sources */,
 				E2EC53711FF24199000C4ECB /* FMNotificationName.m in Sources */,
+				E240C5892180455700A76B16 /* LGSecondViewController.m in Sources */,
 				E22C35432001EE0E007A3C89 /* FMPageControl.m in Sources */,
 				E2D1FB6E20F8B35900E41696 /* DatetimePicker.m in Sources */,
 				E22C35282000D7C1007A3C89 /* SandboxFile.m in Sources */,
@@ -1619,6 +1704,7 @@
 				E23883181FE0FB6400895CA0 /* AppDelegate.m in Sources */,
 				E22C35652001FC70007A3C89 /* NSString+FMWebImage.m in Sources */,
 				E22C356C2001FC70007A3C89 /* NSObject+FMWebPrivate.m in Sources */,
+				E2C3A801217EBE8700C05543 /* LGSystemConfigModel.m in Sources */,
 				E2C29D051FFF274300B32096 /* FMUserManager.m in Sources */,
 				E225AFCE1FE28A1200A2F83E /* NSDictionary+DeleteNull.m in Sources */,
 				E2C29D0C1FFF2A7C00B32096 /* UIViewController+FMPublic.m in Sources */,

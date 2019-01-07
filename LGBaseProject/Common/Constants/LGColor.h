@@ -26,7 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor*)lgColor_Navigation_Back;
 + (UIColor*)lgColor_Navigation_Title;
 
-
 @end
 
 NS_ASSUME_NONNULL_END

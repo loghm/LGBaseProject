@@ -30,6 +30,15 @@
     return _teamClassArray;
 }
 
++(void)setData:(id)data forKey:(NSString *)key {
+    [[NSUserDefaults standardUserDefaults] setValue:[NSKeyedArchiver archivedDataWithRootObject:data] forKey:key];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+}
+
++(id)loadDataforKey:(NSString *)key {
+    return [NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] valueForKey:key]];
+}
 
 //MD5加密算法
 + (NSString *)md5HexDigest:(NSString *)url

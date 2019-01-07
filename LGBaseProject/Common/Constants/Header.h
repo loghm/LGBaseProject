@@ -15,7 +15,7 @@
 #import "LGBaseManager.h"
 #import "FMBaseManager.h"
 #import "FMLayoutManager.h"
-
+#import "LGSystemConfigModel.h"
 
 /** 工具类*/
 #import "FMToolsFunction.h"
@@ -39,6 +39,7 @@
 
 /** AFN封装*/
 #import "LGNetWorkAction.h"
+#import "NetworkManager.h"
 
 /** 第三方*/
 #import <AFNetworking/AFNetworking.h>

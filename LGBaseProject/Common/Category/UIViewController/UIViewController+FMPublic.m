@@ -9,6 +9,7 @@
 #import "UIViewController+FMPublic.h"
 #import "FMNavigationViewController.h"
 #import "AppDelegate.h"
+#import "FMTabbarController.h"
 //#import "FMRootViewController.h"
 
 @implementation UIViewController (FMPublic)

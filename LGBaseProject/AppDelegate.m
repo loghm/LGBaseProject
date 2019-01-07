@@ -59,7 +59,7 @@
 - (void)initailApp {
     //    获取系统设置
     [[NetworkManager shareInstance] requestGetWithURL:ConfigURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
-        DTSystemConfigModel *model = [DTSystemConfigModel mj_objectWithKeyValues:responseObject];
+        LGSystemConfigModel *model = [LGSystemConfigModel mj_objectWithKeyValues:responseObject];
         [HelpManager setData:model forKey:AppInitialKey];
     } failure:^(NSURLSessionDataTask *task, NSError *error, NSString *errMessage) {
         DLog(@"缓存失败");

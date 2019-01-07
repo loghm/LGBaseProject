@@ -57,11 +57,10 @@
     
     LGRangerReadingViewController *rangerVC = [[LGRangerReadingViewController alloc] init];
     rangerVC.view.backgroundColor = [UIColor greenColor];
-    [self addChildViewController:rangerVC title:@"漂读圈" imageNamed:@"tabbar_radar" andselectedImageNamed:@"tabbar_radar"];
+    [self addChildViewController:rangerVC title:@"主页" imageNamed:@"tabbar_radar" andselectedImageNamed:@"tabbar_radar"];
     
     LGPersonalViewController *presonalVC = [[LGPersonalViewController alloc] init];
-    presonalVC.view.backgroundColor = [UIColor blueColor];
-    [self addChildViewController:presonalVC title:@"个人中心" imageNamed:@"tabbar_personal" andselectedImageNamed:@"tabbar_personal_h"];
+    [self addChildViewController:presonalVC title:@"我的" imageNamed:@"tabbar_personal" andselectedImageNamed:@"tabbar_personal_h"];
 }
 
 // 添加某个 childViewController

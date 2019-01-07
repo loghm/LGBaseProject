@@ -17,6 +17,19 @@
 
 + (instancetype)shareInstance;
 
+/** 默认的安全边距*/
+@property (nonatomic, assign) CGFloat dtSafeMargin;
+
+/** 灰色矩形高度*/
+@property (nonatomic, assign) CGFloat dtGrayRectangleHeight;
+
+/** 用于在没有navigationController或者隐藏了navigation的视图中*/
+@property (nonatomic, assign) CGFloat dtNavBarHeight;
+@property (nonatomic, assign) CGFloat dtTabBarHeight;
+
+
+
+
 /**
  * @brief 默认尺寸的基数，按找不同屏幕的尺寸不一样.默认按照4.7寸的屏来设置
  *
