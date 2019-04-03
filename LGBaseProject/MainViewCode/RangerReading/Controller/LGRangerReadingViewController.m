@@ -7,8 +7,11 @@
 //
 
 #import "LGRangerReadingViewController.h"
+#import "LGGradientXibView.h"
 
 @interface LGRangerReadingViewController ()
+
+
 
 @end
 
@@ -19,6 +22,14 @@
     // Do any additional setup after loading the view.
     NSLog(@"-------LGBorrowViewController");
     [self setUpNavi];
+   
+    UIView *takeupView = [[UIView alloc] initWithFrame:CGRectMake(30, 100, 100, 100)];
+    takeupView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:takeupView];
+    LGGradientXibView *gradientView = [[LGGradientXibView alloc] initWithFrame:CGRectMake(30, 100, 200, 200)];
+    [self.view insertSubview:gradientView atIndex:0];
+    
+    [self createTestView];
 }
 
 
@@ -36,6 +47,24 @@
     //        make.centerY.equalTo(weakSelf.baseLeftButton);
     //        make.height.mas_equalTo(LZBSCREEN__NAVIBAR__HEIGHT);
     //    }];
+}
+
+- (void)createTestView {
+    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    testView.center = CGPointMake(0.5*SCREEN_WIDTH, 0.5*SCREEN_HEIGHT);
+    [self.view addSubview:testView];
+    
+    //设置渐变颜色
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.bounds = testView.bounds;
+    gradientLayer.borderWidth = 0;
+    gradientLayer.frame = testView.bounds;
+    gradientLayer.colors = [NSArray arrayWithObjects: (id)[[UIColor colorWithHexString:@"#A1CBFF"] CGColor],
+                            (id)[[UIColor colorWithHexString:@"#8FA7FF"] CGColor], nil, nil];
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(1.0, 0);
+    [testView.layer insertSublayer:gradientLayer atIndex:0];
+    
 }
 
 - (void)didReceiveMemoryWarning {
