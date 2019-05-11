@@ -1,0 +1,3 @@
+[submodule "ReactiveCocoaTest"]
+	path = ReactiveCocoaTest
+	url = https://github.com/loghm/ReactiveCocoaTest.git
