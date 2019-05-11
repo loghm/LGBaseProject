@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define FM_POST_NOTIFY(name) [[NSNotificationCenter defaultCenter] postNotificationName:name object:nil]
+#define FMNotification [NSNotificationCenter defaultCenter]
 
 @interface FMNotificationName : NSObject
 
