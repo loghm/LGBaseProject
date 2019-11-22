@@ -8,8 +8,9 @@
 
 #import "LGRangerReadingViewController.h"
 #import "LGGradientXibView.h"
+#import "LGTabBarClickProtocol.h"
 
-@interface LGRangerReadingViewController ()
+@interface LGRangerReadingViewController ()<LGTabBarClickProtocol>
 
 
 
@@ -65,6 +66,10 @@
     gradientLayer.endPoint = CGPointMake(1.0, 0);
     [testView.layer insertSublayer:gradientLayer atIndex:0];
     
+}
+
+- (void)tabBarItemDidDoubleClick {
+    [self.view fm_showTextHUD:@"double click click"];
 }
 
 - (void)didReceiveMemoryWarning {

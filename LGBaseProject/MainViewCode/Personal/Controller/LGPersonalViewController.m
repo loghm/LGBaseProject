@@ -8,8 +8,9 @@
 
 #import "LGPersonalViewController.h"
 #import "LGHomePageViewController.h"
+#import "LGTabBarClickProtocol.h"
 
-@interface LGPersonalViewController ()
+@interface LGPersonalViewController ()<LGTabBarClickProtocol>
 
 @end
 
@@ -44,6 +45,11 @@
 - (void)click:(UIButton *)btn {
     LGHomePageViewController *homeP = [[LGHomePageViewController alloc] init];
     [self.navigationController pushViewController:homeP animated:YES];
+}
+
+- (void)tabBarItemDidDoubleClick {
+    NSLog(@"double click click click mine");
+    [self.view fm_showTextHUD:@"double click click click mine"];
 }
 
 - (void)didReceiveMemoryWarning {

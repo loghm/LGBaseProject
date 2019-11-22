@@ -165,6 +165,7 @@
 /* Begin PBXFileReference section */
 		2E08C8F7406568A153F95B4F /* Pods-LGBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		4534FB0EEDD86796BF4B0136 /* Pods-LGBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		910755942383EF3C0097CCD8 /* LGTabBarClickProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBarClickProtocol.h; sourceTree = "<group>"; };
 		CC6E0613C9CED2696B0BDD33 /* Pods_LGBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20D3D9D217DAB8D0019FE28 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		E20D3D9E217DAB8D0019FE28 /* DownLoadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadFileManager.h; sourceTree = "<group>"; };
@@ -474,6 +475,55 @@
 				2E08C8F7406568A153F95B4F /* Pods-LGBaseProject.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		910583EB2384C8DD009EFEF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		910583EC2384C8DD009EFEF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		910583ED2384C8DD009EFEF6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		910583EE2384C8E6009EFEF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		910583EF2384C8E6009EFEF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		910583F02384C8E6009EFEF6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		910583F12384C8EE009EFEF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A6997AB6BCDACB1032760248 /* Frameworks */ = {
@@ -1029,10 +1079,10 @@
 		E2C29CF41FFF263D00B32096 /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				910583ED2384C8DD009EFEF6 /* Manager */,
+				910583EB2384C8DD009EFEF6 /* Model */,
+				910583EC2384C8DD009EFEF6 /* View */,
 				E2C29CFE1FFF26FB00B32096 /* Controller */,
-				E2C29CFC1FFF26FB00B32096 /* Manager */,
-				E2C29CFB1FFF26FA00B32096 /* Model */,
-				E2C29CFD1FFF26FB00B32096 /* Views */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -1040,10 +1090,10 @@
 		E2C29CF51FFF263D00B32096 /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				910583F12384C8EE009EFEF6 /* View */,
 				E2C29CF81FFF26E300B32096 /* Controller */,
 				E2C29CF91FFF26E300B32096 /* Manager */,
 				E2C29CF71FFF26E300B32096 /* Model */,
-				E2C29CFA1FFF26E300B32096 /* Views */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -1051,10 +1101,10 @@
 		E2C29CF61FFF263D00B32096 /* RangerReading */ = {
 			isa = PBXGroup;
 			children = (
+				910583F02384C8E6009EFEF6 /* Manager */,
+				910583EF2384C8E6009EFEF6 /* Model */,
+				910583EE2384C8E6009EFEF6 /* View */,
 				E2C29D001FFF270700B32096 /* Controller */,
-				E2C29CFF1FFF270700B32096 /* Manager */,
-				E2C29D021FFF270700B32096 /* Model */,
-				E2C29D011FFF270700B32096 /* Views */,
 			);
 			path = RangerReading;
 			sourceTree = "<group>";
@@ -1089,34 +1139,6 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		E2C29CFA1FFF26E300B32096 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E2C29CFB1FFF26FA00B32096 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E2C29CFC1FFF26FB00B32096 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		E2C29CFD1FFF26FB00B32096 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		E2C29CFE1FFF26FB00B32096 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1126,13 +1148,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E2C29CFF1FFF270700B32096 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		E2C29D001FFF270700B32096 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1140,20 +1155,6 @@
 				E2D7CD4D20050D64005CAD5B /* LGRangerReadingViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2C29D011FFF270700B32096 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E2C29D021FFF270700B32096 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		E2C29D091FFF2A7C00B32096 /* UIViewController */ = {
@@ -1337,6 +1338,7 @@
 				E26437C21FF6286700964AA4 /* LGRootViewController.m */,
 				E2D7CD462004FEC3005CAD5B /* LGMainViewController.h */,
 				E2D7CD472004FEC3005CAD5B /* LGMainViewController.m */,
+				910755942383EF3C0097CCD8 /* LGTabBarClickProtocol.h */,
 			);
 			path = MainViewCode;
 			sourceTree = "<group>";

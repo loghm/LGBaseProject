@@ -8,8 +8,9 @@
 
 #import "LGBorrowViewController.h"
 #import "UIButton+Badge.h"
+#import "LGTabBarClickProtocol.h"
 
-@interface LGBorrowViewController ()
+@interface LGBorrowViewController ()<LGTabBarClickProtocol>
 
 @end
 
@@ -61,6 +62,10 @@
     NSString *str = @"6236681930005220551";
     BOOL isBankCardNum = [HelpManager isValidCardNumber:str];
     DMLog(@"-----:%d", isBankCardNum);
+}
+
+- (void)tabBarItemDidDoubleClick {
+    [self.view fm_showTextHUD:@"双击click..click"];
 }
 
 - (void)didReceiveMemoryWarning {
