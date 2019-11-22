@@ -164,6 +164,27 @@
     [[array[index] layer] addAnimation:animation forKey:nil];
 }
 
+// 放大并保持
+- (void)addscaleAndKeepAnimtaionWithArr:(NSMutableArray *)arry index:(NSInteger)index
+{
+    //放大效果
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    //速度控制函数，控制动画运行的节奏
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    animation.duration = 0.2;       //执行时间
+    animation.repeatCount = 1;      //执行次数
+    animation.removedOnCompletion = NO;
+    animation.fillMode = kCAFillModeForwards;           //保证动画效果延续
+    animation.fromValue = [NSNumber numberWithFloat:1.0];   //初始伸缩倍数
+    animation.toValue = [NSNumber numberWithFloat:1.15];     //结束伸缩倍数
+    [[arry[index] layer] addAnimation:animation forKey:nil];
+    //移除其他tabbar的动画
+    for (int i = 0; i<arry.count; i++) {
+        if (i != index) {
+            [[arry[i] layer] removeAllAnimations];
+        }
+    }
+}
 
 
 - (void)didReceiveMemoryWarning {
