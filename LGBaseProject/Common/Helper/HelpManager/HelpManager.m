@@ -14,7 +14,7 @@
 
 @implementation HelpManager
 
-+ (HelpManager *)shareFMDBHelper {
++ (HelpManager *)shareHelper {
     static HelpManager *helpManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -52,17 +52,6 @@
     return [hash lowercaseString];
 }
 
-
-+ (void)changeBtnNOenabled:(UIButton *)sender {
-//    [sender setBackgroundImage:[UIImage imageNamed:@"bg_nextN"] forState:UIControlStateNormal];
-//    sender.enabled = NO;
-}
-
-+ (void)changeBtnenabled:(UIButton *)sender {
-//    [sender setBackgroundImage:[UIImage imageNamed:@"bg_next"] forState:UIControlStateNormal];
-//    sender.enabled = YES;
-}
-
 + (BOOL)isHaveIllegalChar:(NSString *)str{
     NSCharacterSet *doNotWant = [NSCharacterSet characterSetWithCharactersInString:@"[]{}（#%-*+=_）\\|~(＜＞$%^&*)_+ "];
     NSRange range = [str rangeOfCharacterFromSet:doNotWant];
@@ -80,8 +69,6 @@
     }
     return NO;
 }
-
-
 
 //获取时间差(当前, 几分钟前, 几小时前)
 static NSDateFormatter* formater = nil;
@@ -398,7 +385,7 @@ static NSDateFormatter* formater = nil;
 
 //检验银行卡号的有效性 Luhn算法
 + (BOOL)isValidCardNumber:(NSString *)cardNumber {
-    NSString *digitsOnly = [[HelpManager shareFMDBHelper] getDigitsOnly:cardNumber];
+    NSString *digitsOnly = [[HelpManager shareHelper] getDigitsOnly:cardNumber];
     int sum = 0;
     int digit = 0;
     int addend = 0;

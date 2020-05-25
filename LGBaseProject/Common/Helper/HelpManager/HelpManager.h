@@ -15,17 +15,13 @@
 
 @property (nonatomic , strong) NSMutableArray *teamClassArray;
 
-+ (HelpManager *)shareFMDBHelper;
++ (HelpManager *)shareHelper;
 
 +(void)setData:(id)data forKey:(NSString *)key;
 
 +(id)loadDataforKey:(NSString *)key;
 
 + (NSString *)md5HexDigest:(NSString *)url;
-
-+ (void)changeBtnNOenabled:(UIButton *)sender;
-
-+ (void)changeBtnenabled:(UIButton *)sender;
 
 //判断是否有特殊字符
 + (BOOL)isHaveIllegalChar:(NSString *)str;

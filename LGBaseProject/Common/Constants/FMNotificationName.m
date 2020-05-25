@@ -42,12 +42,6 @@ NSString *const FMLiveAnchorConfigureMeiYanCloseNotification =   @"fm_live_ancho
 
 NSString *const FMMallViewControllerLXPMeiYanhNotification = @"lxp_meiyan";
 
-//点击聊天区域的用户昵称
-NSString *const FMLiveViewClickChatNicknameNotification = @"fm_live_view_click_nickname_notification";
-
-//点击切换摄像头
-NSString *const FMLiveViewClickChangeCameraNotification = @"fm_live_view_click_change_camera_notification";
-
 //美颜设置改变
 NSString *const FMLiveViewBeautySettingChangeNotification = @"fm_live_view_beauty_setting_change_notification";
 

@@ -51,13 +51,6 @@ extern NSString *const FMPersonTabBarRedPointNotification;
 extern NSString *const FMLiveAnchorConfigureMeiYanOpenNotification;
 extern NSString *const FMLiveAnchorConfigureMeiYanCloseNotification;
 
-
-//点击聊天区域的用户昵称
-extern NSString *const FMLiveViewClickChatNicknameNotification;
-
-//点击切换摄像头
-extern NSString *const FMLiveViewClickChangeCameraNotification;
-
 //美颜设置改变
 extern NSString *const FMLiveViewBeautySettingChangeNotification;
 

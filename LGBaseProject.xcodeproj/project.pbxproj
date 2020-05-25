@@ -649,7 +649,6 @@
 		E22C35162000D346007A3C89 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				E2D1FB7020F8B41C00E41696 /* FMReachability */,
 				E2D1FB7120F8B41C00E41696 /* HelpManager */,
 				E22C35172000D346007A3C89 /* ChineseToSpell */,
 			);
@@ -659,10 +658,10 @@
 		E22C35172000D346007A3C89 /* ChineseToSpell */ = {
 			isa = PBXGroup;
 			children = (
-				E22C35182000D346007A3C89 /* POAPinyin.m */,
-				E22C35192000D346007A3C89 /* pinyin.h */,
 				E22C351A2000D346007A3C89 /* POAPinyin.h */,
+				E22C35182000D346007A3C89 /* POAPinyin.m */,
 				E22C351B2000D346007A3C89 /* pinyin.c */,
+				E22C35192000D346007A3C89 /* pinyin.h */,
 			);
 			path = ChineseToSpell;
 			sourceTree = "<group>";
@@ -895,8 +894,8 @@
 		E26437AF1FF5F37300964AA4 /* FMCaptionView */ = {
 			isa = PBXGroup;
 			children = (
-				E26437B01FF5F37300964AA4 /* FMCaptionView.m */,
 				E26437B11FF5F37300964AA4 /* FMCaptionView.h */,
+				E26437B01FF5F37300964AA4 /* FMCaptionView.m */,
 			);
 			path = FMCaptionView;
 			sourceTree = "<group>";
@@ -1237,13 +1236,6 @@
 				E2D1FB6520F8B35800E41696 /* DatetimePicker.h */,
 			);
 			path = DatetimePicker;
-			sourceTree = "<group>";
-		};
-		E2D1FB7020F8B41C00E41696 /* FMReachability */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FMReachability;
 			sourceTree = "<group>";
 		};
 		E2D1FB7120F8B41C00E41696 /* HelpManager */ = {
