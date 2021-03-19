@@ -48,5 +48,8 @@
 ///改变图片颜色
 - (UIImage *)changeImageWithColor:(UIColor *)color;
 
+//使当前图片抗锯齿(当图片在旋转时有用, 原理就是在图片周围加1px的透明像素)
+- (UIImage *)antiAlias;
+
 @end
 

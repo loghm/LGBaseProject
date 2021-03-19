@@ -22,7 +22,6 @@
 #import "HelpManager.h"
 
 /** 常量值*/
-#import "FMEnum.h"
 #import "FMConstants.h"
 #import "FMColor.h"
 #import "LGServiceURL.h"

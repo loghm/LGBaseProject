@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915252C724B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.m in Sources */ = {isa = PBXBuildFile; fileRef = 915252C624B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.m */; };
+		915252CD24B2FA5200C25559 /* UIImage+LGFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 915252CC24B2FA5200C25559 /* UIImage+LGFoundation.m */; };
 		E20D3DA3217DAB8D0019FE28 /* FileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3D9F217DAB8D0019FE28 /* FileUploader.m */; };
 		E20D3DA4217DAB8D0019FE28 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3DA0217DAB8D0019FE28 /* NetworkManager.m */; };
 		E20D3DA5217DAB8D0019FE28 /* DownLoadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3DA1217DAB8D0019FE28 /* DownLoadFileManager.m */; };
@@ -20,7 +22,6 @@
 		E22C35122000D1A7007A3C89 /* NSString+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C350D2000D1A7007A3C89 /* NSString+FMPublic.m */; };
 		E22C35132000D1A7007A3C89 /* NSString+FMSpliceURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C350E2000D1A7007A3C89 /* NSString+FMSpliceURL.m */; };
 		E22C35142000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C350F2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.m */; };
-		E22C35152000D1A7007A3C89 /* NSString+FMRMBString.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C35102000D1A7007A3C89 /* NSString+FMRMBString.m */; };
 		E22C351C2000D346007A3C89 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C35182000D346007A3C89 /* POAPinyin.m */; };
 		E22C351D2000D346007A3C89 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = E22C351B2000D346007A3C89 /* pinyin.c */; };
 		E22C35212000D45F007A3C89 /* UILabel+FMParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C351F2000D45F007A3C89 /* UILabel+FMParagraphStyle.m */; };
@@ -95,7 +96,6 @@
 		E2C29CDB1FFF1B2F00B32096 /* FMGlobalConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CD51FFF1B2E00B32096 /* FMGlobalConfigModel.m */; };
 		E2C29CDD1FFF1B2F00B32096 /* FMGlobalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CD81FFF1B2F00B32096 /* FMGlobalManager.m */; };
 		E2C29CE51FFF1C0500B32096 /* NSObject+FM_Subscript.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */; };
-		E2C29CE61FFF1C0500B32096 /* NSNumber+FMRMBString.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE21FFF1C0500B32096 /* NSNumber+FMRMBString.m */; };
 		E2C29CE71FFF1C0500B32096 /* NSObject+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE31FFF1C0500B32096 /* NSObject+FMPublic.m */; };
 		E2C29CEA1FFF1C7500B32096 /* FMBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CE81FFF1C7400B32096 /* FMBaseManager.m */; };
 		E2C29CEF1FFF229F00B32096 /* UIAlertView+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C29CEE1FFF229E00B32096 /* UIAlertView+FMPublic.m */; };
@@ -166,6 +166,10 @@
 		2E08C8F7406568A153F95B4F /* Pods-LGBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		4534FB0EEDD86796BF4B0136 /* Pods-LGBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBaseProject/Pods-LGBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		910755942383EF3C0097CCD8 /* LGTabBarClickProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBarClickProtocol.h; sourceTree = "<group>"; };
+		915252C524B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpaceCentering.h"; sourceTree = "<group>"; };
+		915252C624B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpaceCentering.m"; sourceTree = "<group>"; };
+		915252CB24B2FA5200C25559 /* UIImage+LGFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGFoundation.h"; sourceTree = "<group>"; };
+		915252CC24B2FA5200C25559 /* UIImage+LGFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGFoundation.m"; sourceTree = "<group>"; };
 		CC6E0613C9CED2696B0BDD33 /* Pods_LGBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20D3D9D217DAB8D0019FE28 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		E20D3D9E217DAB8D0019FE28 /* DownLoadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadFileManager.h; sourceTree = "<group>"; };
@@ -190,12 +194,10 @@
 		E22C35082000D1A7007A3C89 /* NSString+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FMPublic.h"; sourceTree = "<group>"; };
 		E22C35092000D1A7007A3C89 /* NSString+FM_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FM_URL.h"; sourceTree = "<group>"; };
 		E22C350A2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+FMPublic.h"; sourceTree = "<group>"; };
-		E22C350B2000D1A7007A3C89 /* NSString+FMRMBString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FMRMBString.h"; sourceTree = "<group>"; };
 		E22C350C2000D1A7007A3C89 /* NSString+FM_URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FM_URL.m"; sourceTree = "<group>"; };
 		E22C350D2000D1A7007A3C89 /* NSString+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FMPublic.m"; sourceTree = "<group>"; };
 		E22C350E2000D1A7007A3C89 /* NSString+FMSpliceURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FMSpliceURL.m"; sourceTree = "<group>"; };
 		E22C350F2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+FMPublic.m"; sourceTree = "<group>"; };
-		E22C35102000D1A7007A3C89 /* NSString+FMRMBString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FMRMBString.m"; sourceTree = "<group>"; };
 		E22C35182000D346007A3C89 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
 		E22C35192000D346007A3C89 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 		E22C351A2000D346007A3C89 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
@@ -344,10 +346,8 @@
 		E2C29CD71FFF1B2F00B32096 /* FMGlobalConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGlobalConfigModel.h; sourceTree = "<group>"; };
 		E2C29CD81FFF1B2F00B32096 /* FMGlobalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGlobalManager.m; sourceTree = "<group>"; };
 		E2C29CDA1FFF1B2F00B32096 /* FMGlobalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGlobalManager.h; sourceTree = "<group>"; };
-		E2C29CDF1FFF1C0500B32096 /* NSNumber+FMRMBString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FMRMBString.h"; sourceTree = "<group>"; };
 		E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FM_Subscript.m"; sourceTree = "<group>"; };
 		E2C29CE11FFF1C0500B32096 /* NSObject+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FMPublic.h"; sourceTree = "<group>"; };
-		E2C29CE21FFF1C0500B32096 /* NSNumber+FMRMBString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FMRMBString.m"; sourceTree = "<group>"; };
 		E2C29CE31FFF1C0500B32096 /* NSObject+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FMPublic.m"; sourceTree = "<group>"; };
 		E2C29CE41FFF1C0500B32096 /* NSObject+FM_Subscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FM_Subscript.h"; sourceTree = "<group>"; };
 		E2C29CE81FFF1C7400B32096 /* FMBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseManager.m; sourceTree = "<group>"; };
@@ -429,7 +429,6 @@
 		E2EC536C1FF24199000C4ECB /* FMLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLayoutManager.h; sourceTree = "<group>"; };
 		E2EC536D1FF24199000C4ECB /* FMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMColor.h; sourceTree = "<group>"; };
 		E2EC536E1FF24199000C4ECB /* FMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMConstants.h; sourceTree = "<group>"; };
-		E2EC536F1FF24199000C4ECB /* FMEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEnum.h; sourceTree = "<group>"; };
 		E2EC53701FF24199000C4ECB /* FMNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNotificationName.h; sourceTree = "<group>"; };
 		E2EC548F1FF2668D000C4ECB /* FMRedPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRedPointView.m; sourceTree = "<group>"; };
 		E2EC54901FF2668D000C4ECB /* FMRedPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRedPointView.h; sourceTree = "<group>"; };
@@ -603,7 +602,6 @@
 				E2629AA9217D7B3A0062F26F /* LGColor.h */,
 				E2629AAA217D7B3A0062F26F /* LGColor.m */,
 				E2EC536E1FF24199000C4ECB /* FMConstants.h */,
-				E2EC536F1FF24199000C4ECB /* FMEnum.h */,
 				E2EC536C1FF24199000C4ECB /* FMLayoutManager.h */,
 				E2EC536B1FF24199000C4ECB /* FMLayoutManager.m */,
 				E2EC53701FF24199000C4ECB /* FMNotificationName.h */,
@@ -632,16 +630,14 @@
 		E22C35062000D1A7007A3C89 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				E22C35072000D1A7007A3C89 /* NSString+FMSpliceURL.h */,
-				E22C35082000D1A7007A3C89 /* NSString+FMPublic.h */,
 				E22C35092000D1A7007A3C89 /* NSString+FM_URL.h */,
-				E22C350A2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.h */,
-				E22C350B2000D1A7007A3C89 /* NSString+FMRMBString.h */,
 				E22C350C2000D1A7007A3C89 /* NSString+FM_URL.m */,
+				E22C35082000D1A7007A3C89 /* NSString+FMPublic.h */,
 				E22C350D2000D1A7007A3C89 /* NSString+FMPublic.m */,
+				E22C35072000D1A7007A3C89 /* NSString+FMSpliceURL.h */,
 				E22C350E2000D1A7007A3C89 /* NSString+FMSpliceURL.m */,
+				E22C350A2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.h */,
 				E22C350F2000D1A7007A3C89 /* NSMutableAttributedString+FMPublic.m */,
-				E22C35102000D1A7007A3C89 /* NSString+FMRMBString.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -669,8 +665,8 @@
 		E22C351E2000D45F007A3C89 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				E22C351F2000D45F007A3C89 /* UILabel+FMParagraphStyle.m */,
 				E22C35202000D45F007A3C89 /* UILabel+FMParagraphStyle.h */,
+				E22C351F2000D45F007A3C89 /* UILabel+FMParagraphStyle.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -1047,12 +1043,10 @@
 		E2C29CDE1FFF1C0500B32096 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				E2C29CDF1FFF1C0500B32096 /* NSNumber+FMRMBString.h */,
-				E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */,
 				E2C29CE11FFF1C0500B32096 /* NSObject+FMPublic.h */,
-				E2C29CE21FFF1C0500B32096 /* NSNumber+FMRMBString.m */,
 				E2C29CE31FFF1C0500B32096 /* NSObject+FMPublic.m */,
 				E2C29CE41FFF1C0500B32096 /* NSObject+FM_Subscript.h */,
+				E2C29CE01FFF1C0500B32096 /* NSObject+FM_Subscript.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -1250,10 +1244,10 @@
 		E2D1FB7520F8B4C400E41696 /* ShareView */ = {
 			isa = PBXGroup;
 			children = (
-				E2D1FB7620F8B4C400E41696 /* ShareView.m */,
-				E2D1FB7720F8B4C400E41696 /* ActivityView.m */,
 				E2D1FB7820F8B4C400E41696 /* ShareView.h */,
+				E2D1FB7620F8B4C400E41696 /* ShareView.m */,
 				E2D1FB7920F8B4C400E41696 /* ActivityView.h */,
+				E2D1FB7720F8B4C400E41696 /* ActivityView.m */,
 				E2D1FB7A20F8B4C400E41696 /* ShareView.xib */,
 			);
 			path = ShareView;
@@ -1270,6 +1264,8 @@
 				E26437BE1FF6252E00964AA4 /* FMBasicButton.m */,
 				E2DCE77D1FF4CF0B0077EA55 /* FMCenterButton.h */,
 				E2DCE77E1FF4CF0B0077EA55 /* FMCenterButton.m */,
+				915252C524B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.h */,
+				915252C624B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1307,6 +1303,8 @@
 				E2DCE78C1FF4E2190077EA55 /* UIImage+Sub.m */,
 				E2DCE7891FF4DF5E0077EA55 /* UIImage+MMBlur.h */,
 				E2DCE78A1FF4DF5E0077EA55 /* UIImage+MMBlur.m */,
+				915252CB24B2FA5200C25559 /* UIImage+LGFoundation.h */,
+				915252CC24B2FA5200C25559 /* UIImage+LGFoundation.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -1397,8 +1395,8 @@
 		E2EE7A8320E9F5CB006256BC /* StepCountManager */ = {
 			isa = PBXGroup;
 			children = (
-				E2EE7A8420E9F5CB006256BC /* HealthKitManager.m */,
 				E2EE7A8520E9F5CB006256BC /* HealthKitManager.h */,
+				E2EE7A8420E9F5CB006256BC /* HealthKitManager.m */,
 			);
 			path = StepCountManager;
 			sourceTree = "<group>";
@@ -1633,6 +1631,7 @@
 				E2D7CD452004D4B0005CAD5B /* LGTabBarController.m in Sources */,
 				E2C29CE51FFF1C0500B32096 /* NSObject+FM_Subscript.m in Sources */,
 				E26437BA1FF61AD400964AA4 /* FMViewConstructUtil.m in Sources */,
+				915252C724B2F2EA00C25559 /* UIButton+ImageTitleSpaceCentering.m in Sources */,
 				E225AFC61FE26D7600A2F83E /* LGNetWorkAction.m in Sources */,
 				E22EFEAC21EECBE000826ABB /* LGDeviceInfoObject.m in Sources */,
 				E240C5862180454B00A76B16 /* LGFirstViewController.m in Sources */,
@@ -1693,8 +1692,8 @@
 				E2C29D081FFF278400B32096 /* FMUserModel.m in Sources */,
 				E2EC53651FED08E0000C4ECB /* FMTabBar.m in Sources */,
 				E2C29CE71FFF1C0500B32096 /* NSObject+FMPublic.m in Sources */,
-				E2C29CE61FFF1C0500B32096 /* NSNumber+FMRMBString.m in Sources */,
 				E26437B21FF5F37300964AA4 /* FMCaptionView.m in Sources */,
+				915252CD24B2FA5200C25559 /* UIImage+LGFoundation.m in Sources */,
 				E2EC53631FED08E0000C4ECB /* FMTabbarController.m in Sources */,
 				E23883261FE0FB6500895CA0 /* main.m in Sources */,
 				E2C29CDD1FFF1B2F00B32096 /* FMGlobalManager.m in Sources */,
@@ -1710,7 +1709,6 @@
 				E28BA2452058CEBE00DB4A5E /* UIButton+CustomImageLayout.m in Sources */,
 				E22C352E2001E869007A3C89 /* HyLoginButton.m in Sources */,
 				E2C29CD31FFF19E500B32096 /* FMRApplication.m in Sources */,
-				E22C35152000D1A7007A3C89 /* NSString+FMRMBString.m in Sources */,
 				E22C35662001FC70007A3C89 /* FMWebImageManager.m in Sources */,
 				E22C356B2001FC70007A3C89 /* FMWebImageManager+BLL.m in Sources */,
 				E22C357D2002068B007A3C89 /* LGBorrowViewController.m in Sources */,

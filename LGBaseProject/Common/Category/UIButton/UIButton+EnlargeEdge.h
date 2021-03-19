@@ -10,11 +10,11 @@
 
 #import <objc/runtime.h>
 
-
 /**
  设置Button的响应区域
  */
 @interface UIButton (EnlargeEdge)
 - (void)setEnlargeEdge:(CGFloat) size;
 - (void)setEnlargeEdgeWithTop:(CGFloat) top right:(CGFloat) right bottom:(CGFloat) bottom left:(CGFloat) left;
+
 @end

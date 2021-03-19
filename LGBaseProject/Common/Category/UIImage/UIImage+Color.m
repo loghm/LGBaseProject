@@ -79,4 +79,25 @@
     return newImage;
 }
 
+//使当前图片抗锯齿(当图片在旋转时有用, 原理就是在图片周围加1px的透明像素)
+- (UIImage *)antiAlias
+{
+    int border = 1;
+    CGRect rect = CGRectMake(border, border, self.size.width-2*border, self.size.height-2*border);
+    
+    UIImage *img = nil;
+    
+    UIGraphicsBeginImageContext(CGSizeMake(rect.size.width,rect.size.height));
+    [self drawInRect:CGRectMake(-1, -1, self.size.width, self.size.height)];
+    img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    UIGraphicsBeginImageContext(self.size);
+    [img drawInRect:rect];
+    UIImage* antiImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return antiImage;
+}
+
 @end
